@@ -5,3 +5,4 @@ This is where we keep a development diary. I (Touko) will make an example post, 
 Mon. 7.4.2025
 Touko: I made this GitHub repository and added a very WIP base for GDD.
 Touko: I added some notes about what we talked about in the GDD.
+Sara: I made a rough schelude for the project and created a Discord channel for the team.
