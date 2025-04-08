@@ -11,4 +11,4 @@ Sara: I made a rough schelude for the project and created a Discord channel for 
 <br>
 Tue. 8.4.2025
 <br>
-Sara: We talked about the game mechanics and art style. I added some images to our moodboard and looked up sum inspiration to art style. Eikka skecthed some level designs and character ideas. Touko writed a lot of GDD. 
+Sara: We talked about the game mechanics and art style. I added some images to our moodboard and looked up some inspiration to art style. Eelis skecthed some level designs and character ideas. Touko writed a lot of GDD. 
