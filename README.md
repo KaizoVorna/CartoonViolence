@@ -20,3 +20,8 @@ Wed. 9.4.2025
 <br>
 Sara: We discussed little bit about level design and how characters should look. Eelis and I made some early consept art abotu few enemies in the game. Touko writed more to GDD.
 <br>
+<br>
+Thu. 10.4.2025
+<br>
+Sara: We planned the demo level design. Touko made a good level design map to help us later in the unity project. I made consept art of Duckers and Mr. Phant and we added them to the GDD. Touko also made a UNity project ready for next week.
+<br>
