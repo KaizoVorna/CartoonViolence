@@ -32,3 +32,4 @@ Sami: Made a example design for anvil.
 <br>
 Sara: I made first asset designs for bee nest, button, tutorial sign, rope and collectible animation sheets. We also discussed about demo level design.
 <br>
+Touko: I finished making the Tutorial draft and started on the Offices level design draft.
