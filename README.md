@@ -29,3 +29,6 @@ Sara: We planned the demo level design. Touko made a good level design map to he
 Mon. 14.4.2025
 <br>
 Sami: Made a example design for anvil.
+<br>
+Sara: I made first asset designs for bee nest, button, tutorial sign, rope and collectible animation sheets. We also discussed about demo level design.
+<br>
