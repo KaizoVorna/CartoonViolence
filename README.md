@@ -38,3 +38,5 @@ Touko: I finished making the Tutorial draft and started on the Offices level des
 Tue. 15.4.2025
 <br>
 Sara: i made several placeholder assets. Those are temporary assets that are used to get programming started before I make better versions of the assets.
+<br>
+Eelis: I designed the concept appearance of both disguised and without for Ricky Rodent, as well as uploaded the finished results into our Discord channel.
