@@ -33,3 +33,8 @@ Sami: Made a example design for anvil.
 Sara: I made first asset designs for bee nest, button, tutorial sign, rope and collectible animation sheets. We also discussed about demo level design.
 <br>
 Touko: I finished making the Tutorial draft and started on the Offices level design draft.
+<br>
+<br> 
+Tue. 15.4.2025
+<br>
+Sara: i made several placeholder assets. Those are temporary assets that are used to get programming started before I make better versions of the assets.
