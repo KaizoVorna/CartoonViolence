@@ -34,9 +34,11 @@ Sara: I made first asset designs for bee nest, button, tutorial sign, rope and c
 <br>
 Touko: I finished making the Tutorial draft and started on the Offices level design draft.
 <br>
-<br> 
+<br>
 Tue. 15.4.2025
 <br>
 Sara: i made several placeholder assets. Those are temporary assets that are used to get programming started before I make better versions of the assets.
 <br>
 Eelis: I designed the concept appearance of both disguised and without for Ricky Rodent, as well as uploaded the finished results into our Discord channel.
+<br>
+Touko: I designed half of the Offices and updated the GDD with colored concept designs, Ricky Rodent's concept design and some small additions.
