@@ -19,11 +19,14 @@ Sara: We talked about the game mechanics and art style. I added some images to o
 Wed. 9.4.2025
 <br>
 Sara: We discussed little bit about level design and how characters should look. Eelis and I made some early consept art abotu few enemies in the game. Touko writed more to GDD.
+Daniel: After talking with team I try figure it out, how to make an audio content for our game.
 <br>
 <br>
 Thu. 10.4.2025
 <br>
 Sara: We planned the demo level design. Touko made a good level design map to help us later in the unity project. I made consept art of Duckers and Mr. Phant and we added them to the GDD. Touko also made a UNity project ready for next week.
+Daniel: I tried to find some programs for audio making, I was talked with school friends and teachers about that.
+Fri,Sut : I used to be in the studio (+-4h) for see some tutorials and try to use microfon, instruments, an edition program and pair them together.
 <br>
 <br>
 Mon. 14.4.2025
@@ -53,3 +56,4 @@ Eelis: I created the game logo along with a little failed extras and started pro
 Sara: I made a tileset to unity project and started designing start menu.
 <br>
 Touko: I started making storyboards for the cutscenes, with intro being finished. I also sliced the placeholder tileset so that it can be used in Unity.
+Daniel: I continue to explore programs of audio creation.
