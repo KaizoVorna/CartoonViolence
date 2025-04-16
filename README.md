@@ -51,3 +51,5 @@ Wed. 16.4.2025
 Eelis: I created the game logo along with a little failed extras and started progressing the "Dialoque font" task in HacknPlan.
 <br>
 Sara: I made a tileset to unity project and started designing start menu.
+<br>
+Touko: I started making storyboards for the cutscenes, with intro being finished. I also sliced the placeholder tileset so that it can be used in Unity.
