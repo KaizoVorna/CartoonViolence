@@ -44,3 +44,8 @@ Eelis: I designed the concept appearance of both disguised and without for Ricky
 Touko: I designed half of the Offices and updated the GDD with colored concept designs, Ricky Rodent's concept design and some small additions.
 <br>
 Sami: Made a example design for Bomb and fireplace.
+<br>
+<br>
+Wed. 16.4.2025
+<br>
+Eelis: I created the game logo along with a little failed extras and started progressing the "Dialoque font" task in HacknPlan.
