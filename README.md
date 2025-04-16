@@ -49,3 +49,5 @@ Sami: Made a example design for Bomb and fireplace.
 Wed. 16.4.2025
 <br>
 Eelis: I created the game logo along with a little failed extras and started progressing the "Dialoque font" task in HacknPlan.
+<br>
+Sara: I made a tileset to unity project and started designing start menu.
