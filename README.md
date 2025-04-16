@@ -28,6 +28,7 @@ Thu. 10.4.2025
 Sara: We planned the demo level design. Touko made a good level design map to help us later in the unity project. I made consept art of Duckers and Mr. Phant and we added them to the GDD. Touko also made a UNity project ready for next week.
 <br>
 Daniel: I tried to find some programs for audio making, I was talked with school friends and teachers about that.
+<db>
 Fri,Sut : I used to be in the studio (+-4h) for see some tutorials and try to use microfon, instruments, an edition program and pair them together.
 <br>
 <br>
