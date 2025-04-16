@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LipSmack_0: 4841115943653754122
+      LipSmack_1: 4743312846518679541
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

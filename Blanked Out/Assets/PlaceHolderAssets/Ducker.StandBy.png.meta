@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ducker.StandBy_0: 2834375806467853699
+      Ducker.StandBy_1: -6493997701057806198
+      Ducker.StandBy_2: -7750693406307997961
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

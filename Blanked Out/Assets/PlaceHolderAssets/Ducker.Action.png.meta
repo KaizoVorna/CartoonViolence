@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ducker.Action_0: 5268749009115755601
+      Ducker.Action_1: 2118090203694184769
+      Ducker.Action_2: 2058474284999945931
+      Ducker.Action_3: -7008676870522431091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

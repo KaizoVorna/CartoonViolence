@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MigraineMorton_0: 4388458109555107866
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
