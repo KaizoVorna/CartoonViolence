@@ -42,3 +42,5 @@ Sara: i made several placeholder assets. Those are temporary assets that are use
 Eelis: I designed the concept appearance of both disguised and without for Ricky Rodent, as well as uploaded the finished results into our Discord channel.
 <br>
 Touko: I designed half of the Offices and updated the GDD with colored concept designs, Ricky Rodent's concept design and some small additions.
+<br>
+Sami: Made a example design for Bomb and fireplace.
