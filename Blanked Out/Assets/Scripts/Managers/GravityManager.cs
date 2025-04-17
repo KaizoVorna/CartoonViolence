@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Obj_WeakGround : MonoBehaviour
+public class GravityManager : MonoBehaviour
 {
-    //This is the behaviour script for weak walls and floors.
+    //This is the manager for everything related to falling.
     //To Do:
-    //Make it and all connected weak tiles despawn when they collide with an explosion, a falling anvil or Mr. Phant.
+    //-Create conditions for fall death when an entity falls farther than 7 tiles.
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

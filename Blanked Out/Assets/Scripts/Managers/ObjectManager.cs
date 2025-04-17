@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Obj_WeakGround : MonoBehaviour
+public class ObjectManager : MonoBehaviour
 {
-    //This is the behaviour script for weak walls and floors.
+    //This is the manager for all Object-based behaviour.
     //To Do:
-    //Make it and all connected weak tiles despawn when they collide with an explosion, a falling anvil or Mr. Phant.
+    //-Keep track of unlocked art and how many you've collected.
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

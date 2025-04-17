@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Obj_WeakGround : MonoBehaviour
+public class AudioManager : MonoBehaviour
 {
-    //This is the behaviour script for weak walls and floors.
+    //This is the manager for music, audio cues, etc.
     //To Do:
-    //Make it and all connected weak tiles despawn when they collide with an explosion, a falling anvil or Mr. Phant.
+    //-Create a ground for music changes, situational music?
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
