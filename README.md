@@ -69,3 +69,5 @@ Sara: I made a Background image to main menu with blender. I also started making
 <br>
 Eelis: Today i gave up on the font task and instead started working on modeling the drawing pad in Blender.
 <br>
+Touko: I finished the level design draft and the ending storyboard. I also added needed scripts and wrote some To-Dos inside them for reference.
+<br>
