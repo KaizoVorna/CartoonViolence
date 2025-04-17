@@ -66,3 +66,6 @@ Daniel: I continue to explore programs of audio creation.
 Thu. 17.4.2025
 <br>
 Sara: I made a Background image to main menu with blender. I also started making the main menu in unity.
+<br>
+Eelis: Today i gave up on the font task and instead started working on modeling the drawing pad in Blender.
+<br>
