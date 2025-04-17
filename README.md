@@ -61,3 +61,8 @@ Sara: I made a tileset to unity project and started designing start menu.
 Touko: I started making storyboards for the cutscenes, with intro being finished. I also sliced the placeholder tileset so that it can be used in Unity.
 <br>
 Daniel: I continue to explore programs of audio creation.
+<br>
+<br>
+Thu. 17.4.2025
+<br>
+Sara: I made a Background image to main menu with blender. I also started making the main menu in unity.
