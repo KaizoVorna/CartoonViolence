@@ -71,3 +71,10 @@ Eelis: Today i gave up on the font task and instead started working on modeling 
 <br>
 Touko: I finished the level design draft and the ending storyboard. I also added needed scripts and wrote some To-Dos inside them for reference.
 <br>
+Sami: Made a design for closet doors and started creating padlock image.
+<br>
+<br>
+Tue. 22.4.2025
+<br>
+Sami: Finished making padlock image.
+<br>
