@@ -1,10 +1,13 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseManager : MonoBehaviour
 {
     public bool isGamePaused = false;
     public GameObject pauseMenuUI;
+    public GameObject artMenuUI;
+    public GameObject optionsMenuUI;
 
     // Update is called once per frame
     void Update()
@@ -47,12 +50,24 @@ public class PauseManager : MonoBehaviour
 
     public void CheckArt()
     {
-
+        pauseMenuUI.SetActive(false);
+        artMenuUI.SetActive(true);
     }
 
     public void Options()
     {
-
+        pauseMenuUI.SetActive(false);
+        optionsMenuUI.SetActive(true);
+    }
+     public void ReturnMenu()
+    {
+        artMenuUI.SetActive(false);
+        optionsMenuUI.SetActive(false);
+        pauseMenuUI.SetActive(true);
+    }
+    public void ReturnTitle()
+    {
+        SceneManager.LoadScene(0);
     }
 
     public void QuitGame()
