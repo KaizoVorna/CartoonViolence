@@ -78,7 +78,5 @@ Tue. 22.4.2025
 <br>
 Sami: Finished making padlock image.
 <br>
-Tue. 22.4.2025
-<br>
 Eelis: I progressed the drawing pad task in Blender and decided to make the pen into the same model.
 <br>
