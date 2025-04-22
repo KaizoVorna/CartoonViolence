@@ -82,3 +82,5 @@ Eelis: I progressed the drawing pad task in Blender and decided to make the pen 
 <br>
 Sara: I was working with the main menu in Unity. I also started to make the final art for enemy assets.
 <br>
+Touko: Worked on the pause menu in Unity and drew some storyboards for the in-game cutscenes in the Tutorial level.
+Too
