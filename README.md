@@ -80,3 +80,5 @@ Sami: Finished making padlock image.
 <br>
 Eelis: I progressed the drawing pad task in Blender and decided to make the pen into the same model.
 <br>
+Sara: I was working with the main menu in Unity. I also started to make the final art for enemy assets.
+<br>
