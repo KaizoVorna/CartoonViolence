@@ -85,4 +85,9 @@ Sara: I was working with the main menu in Unity. I also started to make the fina
 Touko: Worked on the pause menu in Unity and drew some storyboards for the in-game cutscenes in the Tutorial level.
 Too
 <br>
+<br>
+Wed.23.4.2025
+<br>
 Touko: I tried to get Frank's movement script rolling, got walking/running/sneaking but not much else.
+<br>
+Sara: I made some more asrt and tried to make collectible scripts.
