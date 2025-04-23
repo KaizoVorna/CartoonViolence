@@ -92,7 +92,7 @@ public class PlayerMovement : MonoBehaviour
     private void HandleJumpInput()
     {
         // Jump only if grounded
-        if (!isJumping && Input.GetKeyDown(KeyCode.Space))
+        if (isGrounded && !isJumping && Input.GetKeyDown(KeyCode.Space))
         {
             isJumping = true;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);  // Apply jump force
