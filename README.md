@@ -91,3 +91,8 @@ Wed.23.4.2025
 Touko: I tried to get Frank's movement script rolling, got walking/running/sneaking but not much else.
 <br>
 Sara: I made some more asrt and tried to make collectible scripts.
+<br>
+<br>
+24.4.2025
+<br>
+Sara: I tried to get the collectible script working, with bad results :(
