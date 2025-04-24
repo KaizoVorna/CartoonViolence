@@ -1306,7 +1306,7 @@ GameObject:
   - component: {fileID: 672131062}
   - component: {fileID: 672131061}
   - component: {fileID: 672131060}
-  - component: {fileID: 672131059}
+  - component: {fileID: 672131063}
   m_Layer: 0
   m_Name: AnimationSheet_0
   m_TagString: Collectible
@@ -1314,18 +1314,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &672131059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672131058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aab4c27e87fe794ea46fc33758e2d3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &672131060
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1360,7 +1348,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.13046193, y: -0.1449539}
+  m_Offset: {x: -0.07514775, y: 0.13160563}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1370,7 +1358,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.7734938, y: 3.8802752}
+  m_Size: {x: 4.879737, y: 4.4333944}
   m_EdgeRadius: 0
 --- !u!212 &672131061
 SpriteRenderer:
@@ -1436,12 +1424,24 @@ Transform:
   m_GameObject: {fileID: 672131058}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.49, y: -4.98, z: 0}
+  m_LocalPosition: {x: -10.24, y: -4.98, z: 0}
   m_LocalScale: {x: 0.2351739, y: 0.2351739, z: 0.2351739}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &672131063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672131058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb5b3dba999449846be02e3f148347bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &781582917
 GameObject:
   m_ObjectHideFlags: 0
@@ -4025,7 +4025,7 @@ GameObject:
   - component: {fileID: 1758381661}
   m_Layer: 0
   m_Name: FrankPlaceHolder_0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
