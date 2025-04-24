@@ -20,12 +20,17 @@ public class Player_Movement : MonoBehaviour
     public Vector2 gridSize = new Vector2(1f, 1f);  // Grid size in world units (controls how far the player moves per step)
     public float jumpForce = 10f;        // Jump force for the player
     public LayerMask groundLayer;        // Layer mask to check for the ground, ensuring the player only jumps when grounded
+    public bool isSneaking = false;     //Check if player is sneaking.
+    public bool isCrouching = false;    // Check if the player is crouching. (Count as sneaking?)
+    public bool isRunning = false;      //Check if player is running.
+    public BoxCollider2D crouchCollider; //Collider that gets disabled when crouching.
 
     // Private variables for internal calculations
     private Rigidbody2D rb;              // Rigidbody component to handle physics
     private bool isGrounded = false;     // Boolean to check if the player is grounded
     private Vector2 targetPosition;      // The position where the player is trying to move to (based on grid)
     private bool isMoving = false;       // Boolean to check if the player is currently moving
+    
 
     void Start()
     {
@@ -50,12 +55,12 @@ public class Player_Movement : MonoBehaviour
         // If the player is moving, move them towards the target position
         if (isMoving)
         {
-            if (Input.GetKey(KeyCode.Q))
+            if (isSneaking || isCrouching)
             {
                 // Smoothly move the player towards the target position (on the grid)
                 transform.position = Vector2.MoveTowards(transform.position, targetPosition, sneakSpeed * Time.fixedDeltaTime);
             }
-            else if (Input.GetKey(KeyCode.E))
+            else if (isRunning)
             {
                 // Smoothly move the player towards the target position (on the grid)
                 transform.position = Vector2.MoveTowards(transform.position, targetPosition, runSpeed * Time.fixedDeltaTime);
@@ -119,6 +124,36 @@ public class Player_Movement : MonoBehaviour
 
     private void CheckIfGrounded()
     {
+        if (Input.GetButtonDown("Crouch"))
+        {
+            crouchCollider.enabled = false;
+            isCrouching = true;
+            isSneaking = true;
+        }
+        else if (Input.GetButtonUp("Crouch"))
+        {
+            crouchCollider.enabled = true;
+            isCrouching = false;
+            isSneaking = false;
+        }
+
+        if (Input.GetButtonDown("Sneak"))
+        {
+            isSneaking = true;
+        }
+        else if (Input.GetButtonUp("Sneak"))
+        {
+            isSneaking = false;
+        }
+
+        if (Input.GetButtonDown("Run"))
+        {
+            isRunning = true;
+        }
+        else if (Input.GetButtonUp("Run"))
+        {
+            isRunning = false;
+        }
         // Raycast to check if the player is touching the ground
         // A short distance downward from the player's current position is checked for ground collisions
         isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 0.1f, groundLayer);
