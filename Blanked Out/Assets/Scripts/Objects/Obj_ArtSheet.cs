@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
@@ -8,18 +9,13 @@ public class Obj_ArtSheet : MonoBehaviour
     //-Create a method to collect it. Walk over it? Turn to the background and press interact?
     //-Create behaviour that increases your art sheet count and unlocks concept art in ObjectManager.
 
-    public delegate void OnCollect(int value);
-    public static event OnCollect onCollect;
-
-    [SerializeField]
-    private int amount;
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.tag == "Player")
         {
-            onCollect.Invoke(amount);
-            Destroy(gameObject);
+            Debug.Log("You found an artsheet!");
+            Destroy(this.gameObject);
         }
     }
-   
+
 }
