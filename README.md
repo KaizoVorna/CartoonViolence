@@ -72,6 +72,7 @@ Eelis: Today i gave up on the font task and instead started working on modeling 
 Touko: I finished the level design draft and the ending storyboard. I also added needed scripts and wrote some To-Dos inside them for reference.
 <br>
 Sami: Made a design for closet doors and started creating padlock image.
+I looked some tutorials in YouTube, and in the afternoon I began to study GDD.
 <br>
 <br>
 Tue. 22.4.2025
@@ -85,6 +86,8 @@ Sara: I was working with the main menu in Unity. I also started to make the fina
 Touko: Worked on the pause menu in Unity and drew some storyboards for the in-game cutscenes in the Tutorial level.
 Too
 <br>
+I studied GDD
+<br>
 <br>
 Wed.23.4.2025
 <br>
@@ -92,7 +95,10 @@ Touko: I tried to get Frank's movement script rolling, got walking/running/sneak
 <br>
 Sara: I made some more asrt and tried to make collectible scripts.
 <br>
+I studied GDD
+<br>
 <br>
 24.4.2025
 <br>
 Sara: I tried to get the collectible script working, with bad results :(
+<br> I took the "3D Background" task.
