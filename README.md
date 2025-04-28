@@ -110,3 +110,4 @@ Daniel: I took the "3D Background" task.
 Mon. 28.4.2025
 <br>
 Eelis: I made some research on character modeling tutorials for the "Frank Pastel in 3D" task, and will start modeling tomorrow.
+<br>
