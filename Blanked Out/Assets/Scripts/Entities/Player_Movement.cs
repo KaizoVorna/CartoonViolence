@@ -125,7 +125,7 @@ public class Player_Movement : MonoBehaviour
         }
     }
 
-    private void LedgeCheck()
+    private void LedgeDetect()
     {
 
     }
