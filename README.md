@@ -74,6 +74,7 @@ Eelis: Today i gave up on the font task and instead started working on modeling 
 Touko: I finished the level design draft and the ending storyboard. I also added needed scripts and wrote some To-Dos inside them for reference.
 <br>
 Sami: Made a design for closet doors and started creating padlock image.
+<br>
 Daniel: I looked some (audio) tutorials in YouTube, and in the afternoon I began to study GDD.
 <br>
 <br>
@@ -106,4 +107,10 @@ Sara: I tried to get the collectible script working, with bad results :(
 <br> 
 Daniel: I took the "3D Background" task.
 <br>
+<br>
+Mon. 28.4.2025
+<br>
+Eelis: I made some research on character modeling tutorials for the "Frank Pastel in 3D" task, and will start modeling tomorrow.
+<br>
+Sami: Started learning/making a script for wallswitch.
 <br>

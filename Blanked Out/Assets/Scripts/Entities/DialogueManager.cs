@@ -1,7 +1,7 @@
 using UnityEngine;
 
-public class Player_Quip : MonoBehaviour
-    //This is for the trigger that makes Frank say stuff as a reaction to gameplay.
+public class DialogueManager : MonoBehaviour
+    //This is for the trigger that makes characters say stuff as a reaction to gameplay.
     //To Do:
     //-Attach to a trigger hitbox that when collided, shows a dialogue box or plays a sound clip.
     //-Program a way to change the dialog to fit the trigger, don't hard-code it.
