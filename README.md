@@ -39,6 +39,8 @@ Sami: Made a example design for anvil.
 Sara: I made first asset designs for bee nest, button, tutorial sign, rope and collectible animation sheets. We also discussed about demo level design.
 <br>
 Touko: I finished making the Tutorial draft and started on the Offices level design draft.
+<br> 
+Daniel: Worked with Adobe Audition.
 <br>
 <br>
 Tue. 15.4.2025
@@ -72,6 +74,7 @@ Eelis: Today i gave up on the font task and instead started working on modeling 
 Touko: I finished the level design draft and the ending storyboard. I also added needed scripts and wrote some To-Dos inside them for reference.
 <br>
 Sami: Made a design for closet doors and started creating padlock image.
+Daniel: I looked some (audio) tutorials in YouTube, and in the afternoon I began to study GDD.
 <br>
 <br>
 Tue. 22.4.2025
@@ -85,9 +88,22 @@ Sara: I was working with the main menu in Unity. I also started to make the fina
 Touko: Worked on the pause menu in Unity and drew some storyboards for the in-game cutscenes in the Tutorial level.
 Too
 <br>
+Daniel: I studied GDD
+<br>
 <br>
 Wed.23.4.2025
 <br>
 Touko: I tried to get Frank's movement script rolling, got walking/running/sneaking but not much else.
 <br>
 Sara: I made some more asrt and tried to make collectible scripts.
+<br>
+Daniel: I studied GDD
+<br>
+<br>
+24.4.2025
+<br>
+Sara: I tried to get the collectible script working, with bad results :(
+<br> 
+Daniel: I took the "3D Background" task.
+<br>
+<br>
