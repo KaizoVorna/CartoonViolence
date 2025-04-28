@@ -107,3 +107,6 @@ Sara: I tried to get the collectible script working, with bad results :(
 Daniel: I took the "3D Background" task.
 <br>
 <br>
+Mon. 28.4.2025
+<br>
+Eelis: I made some research on character modeling tutorials for the "Frank Pastel in 3D" task, and will start modeling tomorrow.
