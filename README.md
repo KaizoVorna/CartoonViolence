@@ -114,3 +114,5 @@ Eelis: I made some research on character modeling tutorials for the "Frank Paste
 <br>
 Sami: Started learning/making a script for wallswitch.
 <br>
+Touko: I struggled with the movement script, ended up adding CharacterController.cs and making a separate script for jumping/ledge grabbing.
+<br>
