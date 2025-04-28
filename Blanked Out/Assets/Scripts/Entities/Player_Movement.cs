@@ -48,6 +48,9 @@ public class Player_Movement : MonoBehaviour
 
         // Check if the player is grounded (so they can jump)
         CheckIfGrounded();
+
+        //Check if the player touched a ledge
+        LedgeDetect();
     }
 
     private void FixedUpdate()
@@ -120,6 +123,11 @@ public class Player_Movement : MonoBehaviour
             // Apply a vertical force to the Rigidbody2D for the jump
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);  // Preserve horizontal velocity, apply jump force vertically
         }
+    }
+
+    private void LedgeCheck()
+    {
+
     }
 
     private void CheckIfGrounded()
