@@ -74,6 +74,7 @@ Eelis: Today i gave up on the font task and instead started working on modeling 
 Touko: I finished the level design draft and the ending storyboard. I also added needed scripts and wrote some To-Dos inside them for reference.
 <br>
 Sami: Made a design for closet doors and started creating padlock image.
+<br>
 Daniel: I looked some (audio) tutorials in YouTube, and in the afternoon I began to study GDD.
 <br>
 <br>
