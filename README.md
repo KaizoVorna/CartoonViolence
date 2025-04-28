@@ -111,3 +111,5 @@ Mon. 28.4.2025
 <br>
 Eelis: I made some research on character modeling tutorials for the "Frank Pastel in 3D" task, and will start modeling tomorrow.
 <br>
+Sami: Started learning/making a script for wallswitch.
+<br>
