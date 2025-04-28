@@ -1,6 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using System.Collections;
+using UnityEngine.InputSystem.EnhancedTouch;
 
 public class Player_Movement : MonoBehaviour
     //This manages Frank's basic movement when unhindered and while carrying something.
@@ -20,14 +21,17 @@ public class Player_Movement : MonoBehaviour
     public Vector2 gridSize = new Vector2(1f, 1f);  // Grid size in world units (controls how far the player moves per step)
     public float jumpForce = 10f;        // Jump force for the player
     public LayerMask groundLayer;        // Layer mask to check for the ground, ensuring the player only jumps when grounded
+    public LayerMask ledgeLayer;
     public bool isSneaking = false;     //Check if player is sneaking.
     public bool isCrouching = false;    // Check if the player is crouching. (Count as sneaking?)
     public bool isRunning = false;      //Check if player is running.
     public BoxCollider2D crouchCollider; //Collider that gets disabled when crouching.
+    public Player_LedgeMov ledgeMov;     //Reference the LedgeMov-script to turn it on or off.
+    public PlayerController controller;  //Reference the PlayerController-script.
 
     // Private variables for internal calculations
     private Rigidbody2D rb;              // Rigidbody component to handle physics
-    private bool isGrounded = false;     // Boolean to check if the player is grounded
+    private bool isJumping = false;     // Boolean to check if the player is grounded
     private Vector2 targetPosition;      // The position where the player is trying to move to (based on grid)
     private bool isMoving = false;       // Boolean to check if the player is currently moving
     
@@ -40,7 +44,7 @@ public class Player_Movement : MonoBehaviour
 
     void Update()
     {
-        // Handle player movement input (horizontal and vertical movement)
+        // Handle player movement input (horizontal movement)
         HandleMovementInput();
 
         // Handle player jumping input (spacebar)
@@ -79,6 +83,22 @@ public class Player_Movement : MonoBehaviour
             {
                 isMoving = false; // Player has reached the target position
             }
+
+
+        }
+
+        if (isJumping)
+        {
+            if (isRunning)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);  // Preserve horizontal velocity, apply jump force vertically
+            }
+            else
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);  // Preserve horizontal velocity, apply jump force vertically
+            };
+            isJumping = false;
+
         }
     }
 
@@ -118,16 +138,20 @@ public class Player_Movement : MonoBehaviour
     private void HandleJumpInput()
     {
         // Only allow jumping if the player is grounded (i.e., standing on the floor)
-        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
+        if (!isJumping && Input.GetKeyDown(KeyCode.Space))
         {
-            // Apply a vertical force to the Rigidbody2D for the jump
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);  // Preserve horizontal velocity, apply jump force vertically
+            isJumping = true;
         }
     }
 
     private void LedgeDetect()
     {
+        //Activate if player detects that he has connected to a ledge while jumping.
+        if (isJumping)
+        {
+            ledgeMov.enabled = false;
 
+        }
     }
 
     private void CheckIfGrounded()
@@ -162,8 +186,9 @@ public class Player_Movement : MonoBehaviour
         {
             isRunning = false;
         }
-        // Raycast to check if the player is touching the ground
-        // A short distance downward from the player's current position is checked for ground collisions
-        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 0.1f, groundLayer);
+    }
+    public void OnLanding()
+    {
+        ledgeMov.enabled = false;
     }
 }
