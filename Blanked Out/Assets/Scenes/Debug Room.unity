@@ -4188,7 +4188,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758381656}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -4223,7 +4223,7 @@ MonoBehaviour:
   runSpeed: 10
   sneakSpeed: 3
   gridSize: {x: 1, y: 1}
-  jumpForce: 10
+  jumpForce: 5
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
