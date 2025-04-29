@@ -125,3 +125,5 @@ Eelis: I created a base torso for Frank in Blender and gathered some good tips a
 <br>
 Sami: Made a Wallswitch and continued making the script for it.
 <br>
+Sara: I finally got the collectibles work and counting script easier way.
+<br>
