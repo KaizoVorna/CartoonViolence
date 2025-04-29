@@ -1367,8 +1367,8 @@ Transform:
   m_GameObject: {fileID: 639091123}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.024159, y: -7.18, z: 0}
+  m_LocalScale: {x: 1.04, y: 1.177, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1758381660}
@@ -4205,7 +4205,7 @@ GameObject:
   - component: {fileID: 1758381667}
   - component: {fileID: 1758381657}
   - component: {fileID: 1758381661}
-  - component: {fileID: 1758381663}
+  - component: {fileID: 1758381668}
   m_Layer: 0
   m_Name: FrankPlaceHolder_0
   m_TagString: Player
@@ -4229,7 +4229,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: cdd92a2679d049c49ae3c7d55bd2e595, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4388,20 +4388,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.4638271, y: 3.3737693}
   m_EdgeRadius: 0
---- !u!114 &1758381663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758381656}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f6c19086be324542a7c41cb09bbd553, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movement: {fileID: 0}
-  isHanging: 1
 --- !u!114 &1758381664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4423,7 +4409,7 @@ MonoBehaviour:
     m_Bits: 64
   m_GroundCheck: {fileID: 639091124}
   m_CeilingCheck: {fileID: 1867879013}
-  m_CrouchDisableCollider: {fileID: 1758381661}
+  m_CrouchDisableCollider: {fileID: 1758381668}
   m_AirSpeedMultiplier: 0.1
   audioSource: {fileID: 0}
   jumpSoundEffect: {fileID: 0}
@@ -4447,7 +4433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1758381664}
   rb: {fileID: 1758381657}
-  crouchCollider: {fileID: 1758381661}
+  crouchCollider: {fileID: 1758381668}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -4459,12 +4445,12 @@ MonoBehaviour:
   isRunning: 0
   isJumping: 0
   isMoving: 0
-  gridSizeX: 128
-  gridSizeY: 128
+  gridSizeX: 64
+  gridSizeY: 64
   horizontalMove: 0
-  sneakSpeed: 0.5
-  moveSpeed: 1
-  runSpeed: 2
+  sneakSpeed: 0.01
+  moveSpeed: 1.5
+  runSpeed: 8
   jumpDistance: 2
   jumpHeight: 1
 --- !u!114 &1758381667
@@ -4480,6 +4466,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 584121707}
+--- !u!70 &1758381668
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758381656}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.8559296, y: 0.6063878}
+  m_Size: {x: 3.1128674, y: 10.4704}
+  m_Direction: 0
 --- !u!1 &1763002765
 GameObject:
   m_ObjectHideFlags: 0
@@ -4494,7 +4517,7 @@ GameObject:
   - component: {fileID: 1763002770}
   - component: {fileID: 1763002769}
   - component: {fileID: 1763002771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ObjectLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
