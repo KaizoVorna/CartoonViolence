@@ -89,15 +89,19 @@ public class Player_Movement : MonoBehaviour
 
         if (isJumping)
         {
-            if (isRunning)
+            if (Input.GetKeyDown(KeyCode.D) && isRunning)
             {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);  // Preserve horizontal velocity, apply jump force vertically
+                rb.linearVelocity = new Vector2(rb.linearVelocityX * 2, jumpForce);
+            }
+            else if (Input.GetKeyDown(KeyCode.D))
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpForce);  
             }
             else
             {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);  // Preserve horizontal velocity, apply jump force vertically
-            };
-            isJumping = false;
+                rb.linearVelocity = new Vector2(0, jumpForce);  
+            }
+                isJumping = false;
 
         }
     }
@@ -129,7 +133,7 @@ public class Player_Movement : MonoBehaviour
             // For example, move to 2.0f instead of 2.5f if gridSize is 1 unit
             targetPosition = new Vector2(
                 Mathf.RoundToInt(currentPosition.x + moveX * gridSize.x),  // Calculate the target X position
-                Mathf.RoundToInt(currentPosition.y + moveY * gridSize.y)   // Calculate the target Y position
+                Mathf.RoundToInt(currentPosition.y + rb.linearVelocityY)  // Calculate the target Y position
             );
             isMoving = true; // Set moving flag to true, player will start moving to the new target
         }
