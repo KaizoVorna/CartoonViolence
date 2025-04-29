@@ -116,3 +116,5 @@ Sami: Started learning/making a script for wallswitch.
 <br>
 Touko: I struggled with the movement script, ended up adding CharacterController.cs and making a separate script for jumping/ledge grabbing.
 <br>
+Sara: I worked with collectible scripts and managed to get them working at least someway.
+<br>
