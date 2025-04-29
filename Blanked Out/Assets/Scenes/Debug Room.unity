@@ -1367,7 +1367,6 @@ Transform:
   m_GameObject: {fileID: 639091123}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.4, z: 0}
   m_LocalPosition: {x: 0, y: -7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4206,8 +4205,6 @@ GameObject:
   - component: {fileID: 1758381667}
   - component: {fileID: 1758381657}
   - component: {fileID: 1758381661}
-  - component: {fileID: 1758381662}
-  - component: {fileID: 1758381663}
   - component: {fileID: 1758381667}
   m_Layer: 0
   m_Name: FrankPlaceHolder_0
@@ -4232,7 +4229,6 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
   m_Material: {fileID: 6200000, guid: cdd92a2679d049c49ae3c7d55bd2e595, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -4270,7 +4266,6 @@ MonoBehaviour:
   isSneaking: 0
   isCrouching: 0
   isRunning: 0
-  crouchCollider: {fileID: 1758381662}
   crouchCollider: {fileID: 0}
   ledgeMov: {fileID: 0}
   controller: {fileID: 1758381664}
@@ -4381,53 +4376,6 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.87445617, y: -5.2831144}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.69, y: 13.94}
-    newSize: {x: 9.69, y: 13.94}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 3.4638271, y: 3.3737693}
-  m_EdgeRadius: 0
---- !u!61 &1758381662
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758381656}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.8917204, y: 0.9479848}
   m_Offset: {x: -0.8078513, y: -5.018612}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -4438,7 +4386,6 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.4010131, y: 9.807533}
   m_Size: {x: 2.8865685, y: 2.8447556}
   m_EdgeRadius: 0
 --- !u!114 &1758381664
@@ -4486,7 +4433,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1758381664}
   rb: {fileID: 1758381657}
-  crouchCollider: {fileID: 1758381661}
   crouchCollider: {fileID: 1758381667}
   groundLayer:
     serializedVersion: 2
@@ -4499,13 +4445,9 @@ MonoBehaviour:
   isRunning: 0
   isJumping: 0
   isMoving: 0
-  gridSizeX: 128
-  gridSizeY: 128
   gridSizeX: 64
   gridSizeY: 64
   horizontalMove: 0
-  sneakSpeed: 0.5
-  runSpeed: 2
   sneakSpeed: 0.01
   moveSpeed: 1.5
   runSpeed: 8
@@ -4575,7 +4517,6 @@ GameObject:
   - component: {fileID: 1763002770}
   - component: {fileID: 1763002769}
   - component: {fileID: 1763002771}
-  m_Layer: 0
   m_Layer: 6
   m_Name: ObjectLayer
   m_TagString: Untagged
@@ -6642,8 +6583,6 @@ Transform:
   m_GameObject: {fileID: 1867879012}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.93, y: 2.27, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalPosition: {x: -0.93, y: -0.79, z: 0}
   m_LocalScale: {x: 0.85, y: 0.64, z: 1}
   m_ConstrainProportionsScale: 0
