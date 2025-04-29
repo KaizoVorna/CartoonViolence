@@ -127,3 +127,4 @@ Sami: Made a Wallswitch and continued making the script for it.
 <br>
 Sara: I finally got the collectibles work and counting script easier way.
 <br>
+Touko: I restarted the Movement Script from scratch, almost destroying the Debug Room in the process, but I was able to recover all (or most) things lost.
