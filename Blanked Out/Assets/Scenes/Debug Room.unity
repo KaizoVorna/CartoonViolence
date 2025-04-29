@@ -4235,7 +4235,7 @@ MonoBehaviour:
   isRunning: 0
   crouchCollider: {fileID: 1758381662}
   ledgeMov: {fileID: 0}
-  controller: {fileID: 0}
+  controller: {fileID: 1758381664}
 --- !u!212 &1758381659
 SpriteRenderer:
   m_ObjectHideFlags: 0
