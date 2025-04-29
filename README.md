@@ -122,3 +122,6 @@ Sara: I worked with collectible scripts and managed to get them working at least
 Tue.29.4.2025
 <br>
 Eelis: I created a base torso for Frank in Blender and gathered some good tips and tutorials for later work.
+<br>
+Sami: Made a Wallswitch and continued making the script for it.
+<br>
