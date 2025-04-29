@@ -118,3 +118,6 @@ Touko: I struggled with the movement script, ended up adding CharacterController
 <br>
 Sara: I worked with collectible scripts and managed to get them working at least someway.
 <br>
+<br>
+Tue.29.4.2025
+<br>
