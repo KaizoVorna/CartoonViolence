@@ -1,4 +1,6 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem.EnhancedTouch;
 
 public class Player_Move : MonoBehaviour
 {
@@ -14,12 +16,20 @@ public class Player_Move : MonoBehaviour
     public bool isCrouching = false;    // Check if the player is crouching. (Count as sneaking?)
     public bool isRunning = false;      //Check if player is running.
     public bool isJumping = false;      //Check if the player's feet are in the air.
+    public bool isMoving = false;       //Check if the player is already moving.
 
     [Header("Calculations")]
-    public Vector2 gridSize = new Vector2(1f, 1f);  // Grid size in world units (controls how far the player moves per step)
+    public float gridSizeX = 128;
+    public float gridSizeY = 128;
+    public float horizontalMove = 0;
+    public float sneakSpeed = 0.5f;
+    public float runSpeed = 2f;
+    public float jumpDistance = 2f;
+    public float jumpHeight = 1f;
 
     void Update()
     {
+        DistanceCalc();
         BoolChecker();
     }
 
@@ -30,7 +40,21 @@ public class Player_Move : MonoBehaviour
 
     private void InputHandler()
     {
+        if (isJumping || isMoving) return; //Make sure player input is ignored while moving or jumping.
         //This is where the player input is taken care of.
+        horizontalMove = Input.GetAxisRaw("Horizontal");
+        if (horizontalMove != 0f)
+        {
+            isMoving = true;
+            controller.Move(horizontalMove * gridSizeX * Time.fixedDeltaTime, isCrouching, isJumping);
+            isMoving = false;
+        }
+
+    }
+
+    public void DistanceCalc()
+    {
+
     }
 
     private void BoolChecker()
@@ -60,7 +84,7 @@ public class Player_Move : MonoBehaviour
         {
             isCrouching = false;
         }
-        if (!controller.IsGrounded)
+        if (controller.IsGrounded)
         {
             isJumping = true;
         }
