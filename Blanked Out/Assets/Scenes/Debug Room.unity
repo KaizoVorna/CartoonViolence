@@ -4395,7 +4395,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758381656}
+<<<<<<< Updated upstream
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> Stashed changes
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4ed09f43c0f5e5428ac30f66c8882b9, type: 3}
   m_Name: 
@@ -4419,6 +4423,22 @@ MonoBehaviour:
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1758381665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758381656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 762cef7771ae7a94485466db9720a7bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  count: 0
+>>>>>>> Stashed changes
 --- !u!114 &1758381666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4426,7 +4446,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758381656}
+<<<<<<< Updated upstream
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> Stashed changes
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 863ccd96d2ce73a4d93754c4b8e48716, type: 3}
   m_Name: 
@@ -4454,8 +4478,13 @@ MonoBehaviour:
   jumpDistance: 2
   jumpHeight: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!114 &1758381667
 MonoBehaviour:
+=======
+--- !u!70 &1758381667
+CapsuleCollider2D:
+>>>>>>> Stashed changes
 =======
 --- !u!70 &1758381667
 CapsuleCollider2D:
@@ -4467,12 +4496,15 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1758381656}
   m_Enabled: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aec8c2ad895b62047858880d56aefba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 584121707}
 =======
+=======
+>>>>>>> Stashed changes
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -4502,6 +4534,9 @@ CapsuleCollider2D:
   m_Offset: {x: -0.732677, y: -0.0000019945621}
   m_Size: {x: 2.807327, y: 9.952111}
   m_Direction: 0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1763002765
 GameObject:
