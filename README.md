@@ -125,6 +125,10 @@ Eelis: I created a base torso for Frank in Blender and gathered some good tips a
 <br>
 Sami: Made a Wallswitch and continued making the script for it.
 <br>
+<br>
+Wed.30.4.2025
+<br>
+Eelis: I attempted to round shade Frank´s torso in Blender, failed and moved on to shape his legs.
 Sara: I finally got the collectibles work and counting script easier way.
 <br>
 Touko: I restarted the Movement Script from scratch, almost destroying the Debug Room in the process, but I was able to recover all (or most) things lost.
