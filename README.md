@@ -138,3 +138,4 @@ Sara: I made a finalized tileset in blender
 <br>
 Sami: Continued making wallscript.
 <br>
+Touko: I remade the movement script AGAIN and this time I just forgoed the grid-based movement. Then everything was fine. I also made a screen boundary transition.
