@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class WE_CameraMove : MonoBehaviour
+public class E_CameraMove : MonoBehaviour
 {
     float horizontalMove = 0f;
 
