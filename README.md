@@ -129,6 +129,10 @@ Sami: Made a Wallswitch and continued making the script for it.
 Wed.30.4.2025
 <br>
 Eelis: I attempted to round shade Frank´s torso in Blender, failed and moved on to shape his legs.
+<br>
 Sara: I finally got the collectibles work and counting script easier way.
 <br>
 Touko: I restarted the Movement Script from scratch, almost destroying the Debug Room in the process, but I was able to recover all (or most) things lost.
+<br>
+Sami: Continued making wallscript.
+<br>
