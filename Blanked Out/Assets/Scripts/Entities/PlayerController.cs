@@ -136,7 +136,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // If the player should jump...
-        if (m_Grounded && jump)
+        if (m_Grounded && jump && !Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
         {
             // Add a vertical force to the player.
             m_Grounded = false;
