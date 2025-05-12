@@ -4465,7 +4465,6 @@ GameObject:
   - component: {fileID: 1758381660}
   - component: {fileID: 1758381659}
   - component: {fileID: 1758381664}
-  - component: {fileID: 1758381658}
   - component: {fileID: 1758381666}
   - component: {fileID: 1758381667}
   - component: {fileID: 1758381657}
@@ -4505,35 +4504,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &1758381658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758381656}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e49a034148166b244ac4fd005fb508b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  runSpeed: 4
-  sneakSpeed: 1
-  gridSize: {x: 128, y: 128}
-  jumpForce: 5
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  ledgeLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  isSneaking: 0
-  isCrouching: 0
-  isRunning: 0
-  crouchCollider: {fileID: 0}
-  ledgeMov: {fileID: 0}
-  controller: {fileID: 1758381664}
 --- !u!212 &1758381659
 SpriteRenderer:
   m_ObjectHideFlags: 0
