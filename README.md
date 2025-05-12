@@ -145,3 +145,5 @@ Mon.12.5.2025
 <br>
 Sami: Started making a script for shutters.
 <br>
+Sara: I modified the tileset and imported it to the project.
+<br>
