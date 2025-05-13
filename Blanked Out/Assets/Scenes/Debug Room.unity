@@ -6455,7 +6455,11 @@ MonoBehaviour:
   greenYOffset: 1.55
   greenXSize: 0.1
   greenYSize: 0.05
-  Ground:
+  blueXOffset: -1.62
+  blueYOffset: 1.55
+  blueXSize: 0.1
+  blueYSize: 0.05
+  Ledge:
     serializedVersion: 2
     m_Bits: 128
 --- !u!1 &1763002765

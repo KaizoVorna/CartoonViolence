@@ -25,6 +25,8 @@ public class Player_LedgeMov : MonoBehaviour
 
         if (greenBox && !redBox && !blueBox && !isHanging)
         {
+            rb.linearVelocity = new Vector2(0f, 0f);
+            rb.gravityScale = 0f;
             isHanging = true;
             movement.enabled = false;
         }
@@ -35,9 +37,6 @@ public class Player_LedgeMov : MonoBehaviour
     {
         if (isHanging)
         {
-            rb.linearVelocity = new Vector2(0f, 0f);
-            rb.gravityScale = 0f;
-
             if (Input.GetKey(KeyCode.S))
             {
                 //Drop down
