@@ -1,21 +1,25 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DeathManager : MonoBehaviour
 {
     //This script manages how things die.
     //To Do:
-    //-Make separate falling death and damage death functions, since they work a little differently.
-    //-Respawn the player at the last door used. (Load previous save?)
+    //-Customize each death function once more assets become available. Fall damage can reference PlayerDamage.
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void PlayerFallDeath()
     {
-        
+        Reload();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayerDamage()
     {
-        
+        Reload();
+    }
+
+    void Reload() 
+    {
+        var currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
     }
 }
