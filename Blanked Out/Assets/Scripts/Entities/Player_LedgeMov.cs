@@ -21,6 +21,12 @@ public class Player_LedgeMov : MonoBehaviour
     {
         greenBox = Physics2D.OverlapBox(new Vector2(transform.position.x + (greenXOffset * transform.localScale.x), transform.position.y + greenYOffset), new Vector2(greenXSize, greenYSize), 0f, Ground);
         redBox = Physics2D.OverlapBox(new Vector2(transform.position.x + (redXOffset * transform.localScale.x), transform.position.y + redYOffset), new Vector2(redXSize, redYSize), 0f, Ground);
+    
+    if (greenBox && !redBox && !isHanging)
+        {
+            isHanging = true;
+            movement.enabled = false;
+        }
     }
 
     //This is the movement script related to Ledge Grabbing, where you can only pull yourself up or drop down.
@@ -28,18 +34,27 @@ public class Player_LedgeMov : MonoBehaviour
     {
         if (isHanging)
         {
+            rb.linearVelocity = new Vector2(0f, 0f);
+            rb.gravityScale = 0f;
+
             if (Input.GetKey(KeyCode.S))
             {
                 //Drop down
+                transform.position = new Vector2(transform.position.x, transform.position.y - 0.4f);
+                rb.gravityScale = startingGrav;
+                isHanging = false;
                 movement.enabled = true;
-                this.enabled = false;
             }
 
             if (Input.GetKey(KeyCode.W))
             {
                 //Climb up
+                rb.bodyType = RigidbodyType2D.Kinematic;
+                transform.position = new Vector2(transform.position.x + (0.5f * transform.localScale.x), transform.position.y + 0.4f);
+                rb.bodyType = RigidbodyType2D.Dynamic;
+                rb.gravityScale = startingGrav;
+                isHanging = false;
                 movement.enabled = true;
-                this.enabled = false;
             }
         }
     }
