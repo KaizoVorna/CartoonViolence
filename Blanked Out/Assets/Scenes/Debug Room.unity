@@ -5516,6 +5516,7 @@ GameObject:
   - component: {fileID: 1758381657}
   - component: {fileID: 1758381661}
   - component: {fileID: 1758381668}
+  - component: {fileID: 1758381669}
   m_Layer: 0
   m_Name: FrankPlaceHolder_0
   m_TagString: Player
@@ -5775,6 +5776,31 @@ CapsuleCollider2D:
   m_Offset: {x: -0.8559296, y: 1.7556914}
   m_Size: {x: 3.1128674, y: 8.171781}
   m_Direction: 0
+--- !u!114 &1758381669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758381656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f6c19086be324542a7c41cb09bbd553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movement: {fileID: 0}
+  isHanging: 0
+  redXOffset: 0
+  redYOffset: 0
+  redXSize: 0
+  redYSize: 0
+  greenXOffset: 0
+  greenYOffset: 0
+  greenXSize: 0
+  greenYSize: 0
+  Ground:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1763002765
 GameObject:
   m_ObjectHideFlags: 0
