@@ -5788,19 +5788,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f6c19086be324542a7c41cb09bbd553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movement: {fileID: 0}
+  movement: {fileID: 1758381666}
   isHanging: 0
-  redXOffset: 0
-  redYOffset: 0
-  redXSize: 0
-  redYSize: 0
-  greenXOffset: 0
-  greenYOffset: 0
-  greenXSize: 0
-  greenYSize: 0
+  redXOffset: 0.2
+  redYOffset: 0.9
+  redXSize: 0.1
+  redYSize: 0.05
+  greenXOffset: 0.2
+  greenYOffset: 0.7
+  greenXSize: 0.1
+  greenYSize: 0.05
   Ground:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 192
 --- !u!1 &1763002765
 GameObject:
   m_ObjectHideFlags: 0
