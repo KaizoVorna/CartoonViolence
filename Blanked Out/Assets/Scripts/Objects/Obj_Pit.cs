@@ -15,11 +15,11 @@ public class Obj_Pit : MonoBehaviour
         {
             deathManager.PlayerFallDeath();
         }
-        else if (entity.tag == "Enemy")
+        else if (entity.tag == "Enemy") // Can be turned around in that it calls each enemy's individual death scream?
         {
             Destroy(gameObject);
         }
-        else
+        else // This is for inanimate objects that fall in.
         {
             Destroy(gameObject);
         }

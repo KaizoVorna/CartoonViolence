@@ -7,12 +7,12 @@ public class DeathManager : MonoBehaviour
     //To Do:
     //-Customize each death function once more assets become available. Fall damage can reference PlayerDamage.
 
-    public void PlayerFallDeath()
+    public void PlayerFallDeath() // This function handles when player falls into pits.
     {
         Reload();
     }
 
-    public void PlayerDamage()
+    public void PlayerDamage() // This function handles when player takes damage from attacks, falling from too high, etc.
     {
         Reload();
     }
