@@ -149,6 +149,7 @@ Sara: I modified the tileset and imported it to the project.
 <br>
 Touko: I drew some artwork for the tutorial signs and fixed the "getting stuck on ledges"-thing.
 <br>
+<br>
 Tue.13.5.2025
 <br>
 Touko: I programmed in a functionality to grab ledges with the ability to drop down and a rudimentary climb-up functionality. (That doesn't work properly yet.) I also programmed in bottomless pits. <br>
