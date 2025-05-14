@@ -10,6 +10,9 @@ public class Player_LedgeMov : MonoBehaviour
     private Rigidbody2D rb;
     private float startingGrav;
     public LayerMask Ledge;
+    public Transform ledgeGrabber;
+    public Transform directBoxUp;
+    public Transform directBoxBehind;
 
     private void Start()
     {
@@ -61,8 +64,12 @@ public class Player_LedgeMov : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(new Vector2(transform.position.x + (redXOffset * transform.localScale.x), transform.position.y + redYOffset), new Vector2(redXSize, redYSize));
+        if (ledgeGrabber != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireCube(ledgeGrabber.position, ledgeGrabber.localScale);
+        }
+
         Gizmos.color = Color.green;
         Gizmos.DrawWireCube(new Vector2(transform.position.x + (greenXOffset * transform.localScale.x), transform.position.y + greenYOffset), new Vector2(greenXSize, greenYSize));
         Gizmos.color = Color.blue;
