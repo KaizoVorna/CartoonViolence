@@ -160,3 +160,5 @@ Wed.14.5.2025
 <br>
 Sara: I started drawing mortons final design and animation frames.
 <br>
+Eelis: I made a "shopping list" of items and clothing needed for our dear actor Joni Lampela to use in his role of Frank Pastel.
+<br>
