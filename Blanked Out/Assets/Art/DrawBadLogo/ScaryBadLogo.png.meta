@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ScaryBadLogo_0: -7477938038830979439
+      ScaryBadLogo_1: -1209022624345278728
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
