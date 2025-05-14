@@ -1,16 +1,23 @@
-using UnityEngine;
+ using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DrawBadManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+
+    public GameObject drawpbadMenuUI;
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonDown("DrawBad"))
+        {
+            drawpbadMenuUI.SetActive(true);
+        }
+        else if (Input.GetButtonUp("DrawBad"))
+        {
+            drawpbadMenuUI.SetActive(false);
+        }
         
     }
 }
