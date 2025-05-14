@@ -118,6 +118,8 @@ Touko: I struggled with the movement script, ended up adding CharacterController
 <br>
 Sara: I worked with collectible scripts and managed to get them working at least someway.
 <br>
+Daniel: I still working with bg.
+<br>
 <br>
 Tue.29.4.2025
 <br>
@@ -128,6 +130,8 @@ Sami: Made a Wallswitch and continued making the script for it.
 Sara: I finally got the collectibles work and counting script easier way.
 <br>
 Touko: I restarted the Movement Script from scratch, almost destroying the Debug Room in the process, but I was able to recover all (or most) things lost.
+<br>
+Daniel: I still sitting on the freaking backgroung.
 <br>
 <br>
 Wed.30.4.2025
@@ -140,6 +144,8 @@ Sami: Continued making wallscript.
 <br>
 Touko: I remade the movement script AGAIN and this time I just forgoed the grid-based movement. Then everything was fine. I also made a screen boundary transition.
 <br>
+Daniel: I finished with my wonderful and unbelivible background, not my bg but with pictures for our game.
+<br>
 <br>
 Mon.12.5.2025
 <br>
@@ -149,11 +155,14 @@ Sara: I modified the tileset and imported it to the project.
 <br>
 Touko: I drew some artwork for the tutorial signs and fixed the "getting stuck on ledges"-thing.
 <br>
+Daniel: I got the task- "DrawBad programming".
+<br>
 <br>
 Tue.13.5.2025
 <br>
 Touko: I programmed in a functionality to grab ledges with the ability to drop down and a rudimentary climb-up functionality. (That doesn't work properly yet.) I also programmed in bottomless pits. <br>
 Otherwise I just wrote down story stuff in GDD, mainly refining the ending.
+Daniel: Guess what....yeee you've got me... same old s....sunshine, and my programmin' shining like never before.
 <br>
 <br>
 Wed.14.5.2025
@@ -161,4 +170,7 @@ Wed.14.5.2025
 Sara: I started drawing mortons final design and animation frames.
 <br>
 Eelis: I made a "shopping list" of items and clothing needed for our dear actor Joni Lampela to use in his role of Frank Pastel.
+<br>
+Daniel: Finished the basic steps of BG, we are testing' that with Touko (also Tauko helped me with codes).
+<br>
 <br>
