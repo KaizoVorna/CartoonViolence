@@ -158,3 +158,5 @@ Otherwise I just wrote down story stuff in GDD, mainly refining the ending.
 <br>
 Wed.14.5.2025
 <br>
+Sara: I started drawing mortons final design and animation frames.
+<br>
