@@ -162,6 +162,7 @@ Tue.13.5.2025
 <br>
 Touko: I programmed in a functionality to grab ledges with the ability to drop down and a rudimentary climb-up functionality. (That doesn't work properly yet.) I also programmed in bottomless pits. <br>
 Otherwise I just wrote down story stuff in GDD, mainly refining the ending.
+<br>
 Daniel: Guess what....yeee you've got me... same old s....sunshine, and my programmin' shining like never before.
 <br>
 <br>
