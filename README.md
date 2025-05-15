@@ -174,4 +174,8 @@ Eelis: I made a "shopping list" of items and clothing needed for our dear actor 
 <br>
 Daniel: Finished the basic steps of BG, we are testing' that with Touko (also Tauko helped me with codes).
 <br>
+Sami: I made good progress with the shutter script.
+<br>
+<br>
+Thu.15.5.2025
 <br>
