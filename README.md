@@ -183,3 +183,5 @@ Eelis: I specified which items and clothing are needed for the shopping list, fo
 <br>
 Sara: I made more morton animation frames and some decoration objects to use in a project. I also took few more pictures of darker baskground wall in blender.
 <br>
+Touko: I lost my mind. But I also got the ledge grabbing working! Also drew a basic outline for our HCD.
+<br>
