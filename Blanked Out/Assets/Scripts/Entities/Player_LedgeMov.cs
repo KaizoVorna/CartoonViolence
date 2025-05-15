@@ -9,6 +9,7 @@ public class Player_LedgeMov : MonoBehaviour
     private Rigidbody2D rb;
     private float startingGrav;
     public LayerMask Ledge;
+    public LayerMask Ground;
     public Transform ledgeGrabber;
     public Transform directBoxUp;
     public Transform directBoxBehind;
@@ -23,7 +24,7 @@ public class Player_LedgeMov : MonoBehaviour
     {
         greenBox = Physics2D.OverlapBox(new Vector2(ledgeGrabber.position.x, ledgeGrabber.position.y), new Vector2(ledgeGrabber.localScale.x, ledgeGrabber.localScale.y), 0f, Ledge);
         redBox = Physics2D.OverlapBox(new Vector2(directBoxUp.position.x, directBoxUp.position.y), new Vector2(directBoxUp.localScale.x, directBoxUp.localScale.y), 0f, Ledge);
-        blueBox = Physics2D.OverlapBox(new Vector2(directBoxBehind.position.x, directBoxBehind.position.y), new Vector2(directBoxBehind.localScale.x, directBoxBehind.localScale.y), 0f, Ledge);
+        blueBox = Physics2D.OverlapBox(new Vector2(directBoxBehind.position.x, directBoxBehind.position.y), new Vector2(directBoxBehind.localScale.x, directBoxBehind.localScale.y), 0f, Ground);
 
         if (greenBox && !redBox && !blueBox && !isHanging)
         {
