@@ -20,7 +20,7 @@ public class Player_LedgeMov : MonoBehaviour
         startingGrav = rb.gravityScale; 
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         greenBox = Physics2D.OverlapBox(new Vector2(ledgeGrabber.position.x, ledgeGrabber.position.y), new Vector2(ledgeGrabber.localScale.x, ledgeGrabber.localScale.y), 0f, Ledge);
         redBox = Physics2D.OverlapBox(new Vector2(directBoxUp.position.x, directBoxUp.position.y), new Vector2(directBoxUp.localScale.x, directBoxUp.localScale.y), 0f, Ledge);
@@ -36,7 +36,7 @@ public class Player_LedgeMov : MonoBehaviour
     }
 
     //This is the movement script related to Ledge Grabbing, where you can only pull yourself up or drop down.
-    void FixedUpdate()
+    void Update()
     {
         if (isHanging)
         {
