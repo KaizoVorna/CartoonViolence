@@ -140,7 +140,7 @@ Eelis: I attempted to round shade Frank´s torso in Blender, failed and moved on
 <br>
 Sara: I made a finalized tileset in blender
 <br>
-Sami: Continued making wallscript.
+Sami: Continued making wallswitch script.
 <br>
 Touko: I remade the movement script AGAIN and this time I just forgoed the grid-based movement. Then everything was fine. I also made a screen boundary transition.
 <br>
