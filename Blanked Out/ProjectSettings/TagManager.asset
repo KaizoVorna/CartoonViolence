@@ -45,7 +45,7 @@ TagManager:
   - name: MainMenu
     uniqueID: 3011962957
     locked: 0
-  - name: BG Image
+  - name: BG Images
     uniqueID: 3790078283
     locked: 0
   - name: BG Tiles
@@ -53,6 +53,12 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground Tiles
+    uniqueID: 1041583639
+    locked: 0
+  - name: Foreground Images
+    uniqueID: 2001958367
     locked: 0
   - name: PreMenu
     uniqueID: 773560575
