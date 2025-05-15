@@ -5,7 +5,7 @@ public class Player_LedgeMov : MonoBehaviour
 {
     public Player_Move movement; //Reference player movement to turn it on and off.
     public bool isHanging = false;
-    private bool redBox, greenBox, blueBox;
+    public bool redBox, greenBox, blueBox;
     private Rigidbody2D rb;
     private float startingGrav;
     public LayerMask Ledge;
