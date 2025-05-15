@@ -1777,7 +1777,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6a7eee41213dda4cac5d2aa33f27326, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 1758381656}
+  player: {fileID: 0}
+  followSpeed: 15
 --- !u!1 &639091123
 GameObject:
   m_ObjectHideFlags: 0
@@ -2508,6 +2509,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drawpbadMenuUI: {fileID: 0}
+  followSpeed: 15
+  player: {fileID: 0}
+  startPos: {x: 0, y: 0}
 --- !u!1 &882578022
 GameObject:
   m_ObjectHideFlags: 0
@@ -6599,6 +6603,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drawpbadMenuUI: {fileID: 631953131}
+  followSpeed: 15
+  player: {fileID: 1758381660}
+  startPos: {x: 0, y: 0}
 --- !u!1 &1775872047
 GameObject:
   m_ObjectHideFlags: 0
