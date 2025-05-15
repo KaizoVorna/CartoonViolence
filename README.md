@@ -179,3 +179,9 @@ Sami: I made good progress with the shutter script.
 <br>
 Thu.15.5.2025
 <br>
+Eelis: I specified which items and clothing are needed for the shopping list, fought with Microsoft defender to install Medal and failed. Planning to start scripting Migraine Morton next monday.
+<br>
+Sara: I made more morton animation frames and some decoration objects to use in a project. I also took few more pictures of darker baskground wall in blender.
+<br>
+Touko: I lost my mind. But I also got the ledge grabbing working! Also drew a basic outline for our HCD.
+<br>
