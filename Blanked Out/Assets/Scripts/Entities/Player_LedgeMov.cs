@@ -53,7 +53,7 @@ public class Player_LedgeMov : MonoBehaviour
             {
                 //Climb up
                 rb.bodyType = RigidbodyType2D.Kinematic;
-                transform.position = new Vector2(transform.position.x + (0.5f * transform.localScale.x), transform.position.y + 2.4f);
+                transform.position = new Vector2(ledgeGrabber.transform.position.x + (0.5f * transform.localScale.x), transform.position.y + 2.4f);
                 rb.bodyType = RigidbodyType2D.Dynamic;
                 rb.gravityScale = startingGrav;
                 isHanging = false;
