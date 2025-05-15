@@ -179,3 +179,4 @@ Sami: I made good progress with the shutter script.
 <br>
 Thu.15.5.2025
 <br>
+Eelis: I specified which items and clothing are needed for the shopping list, fought with Microsoft defender to install Medal and failed. Planning to start scripting Migraine Morton next monday.
