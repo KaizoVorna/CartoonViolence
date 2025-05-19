@@ -3,12 +3,16 @@ using UnityEngine;
 public class ShutterTriggerButton : MonoBehaviour
 {
     [SerializeField] private ShutterSetActive shutter;
+    public BoxCollider2D detectPresence;
 
-    private void Update() 
+    private void OnTriggerStay2D(Collider2D player)
     {
-        if (Input.GetKeyDown(KeyCode.W)) 
+        if (player.tag == "Player")
         {
-            shutter.ToggleShutter();
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                shutter.ToggleShutter();
+            }
         }
     }
 
