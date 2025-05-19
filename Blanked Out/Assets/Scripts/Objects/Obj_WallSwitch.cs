@@ -1,4 +1,6 @@
+
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Obj_WallSwitch : MonoBehaviour
 {
@@ -6,15 +8,44 @@ public class Obj_WallSwitch : MonoBehaviour
     //To Do:
     //-Make it a background interactable which toggles the associated object's active and inactive states.
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public bool isInRange;
+    public KeyCode interactKey;
+    public UnityEvent interactAction;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        
+        if (isInRange)
+        {
+            if (Input.GetKeyDown(interactKey))
+            {
+                interactAction.Invoke();
+            }
+        }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player")) 
+        {
+            isInRange = true;
+            Debug.Log("Player is in range");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isInRange = false;
+            Debug.Log("Player isn't in range");
+        }
+    }
+
 }
+
