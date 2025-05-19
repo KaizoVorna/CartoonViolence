@@ -61,12 +61,12 @@ public class Player_Move : MonoBehaviour
     void FixedUpdate()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * moveSpeed;
-        if (isSneaking)
+        if (isSneaking && !isCrouching)
         {
             controller.Move(horizontalMove * Time.fixedDeltaTime * sneakSpeed, isCrouching, isJumping);
             isJumping = false;
         }
-        else if (isRunning)
+        else if (isRunning && !isCrouching)
         {
             controller.Move(horizontalMove * Time.fixedDeltaTime * runSpeed, isCrouching, isJumping);
             isJumping = false;
