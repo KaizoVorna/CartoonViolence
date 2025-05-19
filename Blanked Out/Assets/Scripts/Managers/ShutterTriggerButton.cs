@@ -8,14 +8,8 @@ public class ShutterTriggerButton : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W)) 
         {
-            shutter.OpenShutter();
+            shutter.ToggleShutter();
         }
-        if (Input.GetKeyDown(KeyCode.S)) 
-        {
-            shutter.CloseShutter();        
-        }
-        
-    
     }
 
 
