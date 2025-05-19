@@ -185,3 +185,10 @@ Sara: I made more morton animation frames and some decoration objects to use in 
 <br>
 Touko: I lost my mind. But I also got the ledge grabbing working! Also drew a basic outline for our HCD.
 <br>
+Sami: Scripts for Shutter and Wallswitch is ready to be tested.
+<br>
+<br>
+Mon.19.5.2025
+<br>
+Sami: Started testing shutter and wallswitch scripts and tried connecting them.
+<br>
