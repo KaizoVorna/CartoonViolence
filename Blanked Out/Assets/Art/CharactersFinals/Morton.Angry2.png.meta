@@ -130,6 +130,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -322,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Morton.Angry2_0: 7404898626436402944
+      Morton.Angry2_1: 4202739514788312192
+      Morton.Angry2_2: 5351065844581203110
+      Morton.Angry2_3: 2564840516556156983
+      Morton.Angry2_4: 3251715332086135038
+      Morton.Angry2_5: 928073905187612110
+      Morton.Angry2_6: -583144291549297844
+      Morton.Angry2_7: -2118147955869847317
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
