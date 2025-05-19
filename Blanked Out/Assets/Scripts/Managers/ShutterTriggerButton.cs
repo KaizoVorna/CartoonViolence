@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.WSA;
 
 public class ShutterTriggerButton : MonoBehaviour
 {
@@ -10,13 +12,17 @@ public class ShutterTriggerButton : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.W))
             {
-                shutter.ToggleShutter();
+                Debug.Log("Pushed");
+                Activate();
             }
+
         }
     }
 
-
-        
+    public void Activate()
+    {
+        shutter.ToggleShutter();
+    }    
 
 }
 
