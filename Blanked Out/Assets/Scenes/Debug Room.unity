@@ -1289,6 +1289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 992647361}
   - component: {fileID: 992647360}
+  - component: {fileID: 992647362}
   m_Layer: 0
   m_Name: Button2_0
   m_TagString: Untagged
@@ -1366,6 +1367,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &992647362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992647359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a088a0763e07fd4d98e4b8877b7f7b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shutter: {fileID: 2123825861}
 --- !u!1001 &1039659492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4053,6 +4067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2123825860}
   - component: {fileID: 2123825859}
+  - component: {fileID: 2123825861}
   m_Layer: 0
   m_Name: Gate_0
   m_TagString: Untagged
@@ -4130,6 +4145,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2123825861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123825858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca527e4fc548d354494840010809f0af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2143919799
 GameObject:
   m_ObjectHideFlags: 0
