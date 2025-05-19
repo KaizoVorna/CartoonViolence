@@ -190,5 +190,5 @@ Sami: Scripts for Shutter and Wallswitch is ready to be tested.
 <br>
 Mon.19.5.2025
 <br>
-Sami: Started testing shutter and wallswitch scripts and tried connecting them.
+Sami: Started testing shutter and wallswitch scripts and tried connecting them to each other
 <br>
