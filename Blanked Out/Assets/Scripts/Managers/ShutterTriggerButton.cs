@@ -3,7 +3,6 @@ using UnityEngine;
 public class ShutterTriggerButton : MonoBehaviour
 {
     [SerializeField] private ShutterSetActive shutter;
-    public BoxCollider2D detectPresence;
 
     private void OnTriggerStay2D(Collider2D player)
     {
