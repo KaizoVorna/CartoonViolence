@@ -1,19 +1,26 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CollectibleCount : MonoBehaviour
 {
     public int count;
-    public TextMeshPro text;
-    public CollectibleManager manager;
+    public TMP_Text countText;
+    
     void Start()
     {
-        
+        UpdateCountText();
     }
 
     void Update()
     {
-       text.text = "Artsheets:" + count.ToString();
+        UpdateCountText();
+    }
+
+    void UpdateCountText()
+    {
+        countText.text = ("Artsheets:") + count.ToString();
     }
 }
+
