@@ -192,3 +192,8 @@ Mon.19.5.2025
 <br>
 Sami: Started testing shutter and wallswitch scripts and tried connecting them to each other
 <br>
+<br>
+Tue.20.5.2025
+<br>
+Sami: Started making anvil gameobject.
+<br>
