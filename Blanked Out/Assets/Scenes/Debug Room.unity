@@ -1738,7 +1738,7 @@ GameObject:
   - component: {fileID: 1403727507}
   - component: {fileID: 1403727506}
   m_Layer: 5
-  m_Name: Button A.
+  m_Name: Button A.bomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1859,7 +1859,7 @@ GameObject:
   - component: {fileID: 1447916923}
   - component: {fileID: 1447916922}
   m_Layer: 5
-  m_Name: Button D.
+  m_Name: Button D.firePlace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3175,7 +3175,7 @@ GameObject:
   - component: {fileID: 1805092536}
   - component: {fileID: 1805092535}
   m_Layer: 5
-  m_Name: Button S.
+  m_Name: Button S.anvil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4446,7 +4446,7 @@ GameObject:
   - component: {fileID: 2143919802}
   - component: {fileID: 2143919801}
   m_Layer: 5
-  m_Name: Button W.
+  m_Name: Button W.door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
