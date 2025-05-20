@@ -195,5 +195,5 @@ Sami: Started testing shutter and wallswitch scripts and tried connecting them t
 <br>
 Tue.20.5.2025
 <br>
-Sami: Started making anvil gameobject.
+Sami: Started making anvil gameobject in Unity
 <br>
