@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b28c9a35f69ade34da9cf3ea470f4b38
+guid: 249ebfad831c6e44ba2d780d24c9c54e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4194680657908351582
-    second: Pommi 4 _0
+      213: -1060740448181984941
+    second: anvil_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pommi 4 _0
+      name: anvil_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5244d085df763a30800000000000000
-      internalID: 4194680657908351582
+      spriteID: 3516933be2e7741f0800000000000000
+      internalID: -1060740448181984941
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Pommi 4 _0: 4194680657908351582
+      anvil_0: -1060740448181984941
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
