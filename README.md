@@ -187,7 +187,7 @@ Touko: I lost my mind. But I also got the ledge grabbing working! Also drew a ba
 <br>
 Sami: Scripts for Shutter and Wallswitch is ready to be tested.
 <br>
-Daniel: Still DB stuff - script, stile, size,(let me recognize, my life style is ice ,so I newer sayin' twice ....this is Hip-Hop babyyyy xD).
+Daniel: Still DB stuff - script, stile, size, (let me recognize, my life style is ice ,so I newer sayin' twice ....this is Hip-Hop babyyyy xD).
 <br>
 <br>
 Mon.19.5.2025
