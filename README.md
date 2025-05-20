@@ -202,3 +202,6 @@ Sami: Started making anvil gameobject in Unity
 Eelis: I photographed Joni Lampela for Frank Pastel's sprites and received a paper cut in the progress.
 <br>
 Touko: I helped with photographing Lampela and didn't get cut, except in editing. Also started laying down some layout for the actual level.
+<br>
+Sara: I made collectible counting script and managed to get the art menu show collected item number. I also edited the main character footage and then lost my mind because github does not like big video files. And MPEG4 is a shit.
+<br>
