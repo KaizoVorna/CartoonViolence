@@ -194,6 +194,7 @@ Sami: Started testing shutter and wallswitch scripts and tried connecting them t
 <br>
 Touko: I tweaked player physics and added functionality to wallswitches that makes them trigger only when player is in front of it.
 <br>
+<br>
 Tue.20.5.2025
 <br>
 Sami: Started making anvil gameobject in Unity
