@@ -260,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HintPaint12_0: 5212657280640818272
+      HintPaint12_1: -3397011687644164483
+      HintPaint12_2: -8863307528096151565
+      HintPaint12_3: -8410916904916380797
+      HintPaint12_4: -8252401269132111252
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

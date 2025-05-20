@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ovi esim 1 ghost 5_0: -1060097915577341324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

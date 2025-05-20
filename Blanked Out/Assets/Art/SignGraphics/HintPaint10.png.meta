@@ -635,7 +635,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HintPaint10_0: 127848658983733180
+      HintPaint10_1: 6611333733819714301
+      HintPaint10_10: 397217519688402408
+      HintPaint10_11: -6332157080013124567
+      HintPaint10_12: -2764174672181404919
+      HintPaint10_13: -5690132336258414037
+      HintPaint10_14: 4023118600672462993
+      HintPaint10_15: -3650486861745549247
+      HintPaint10_16: 3658519359489816395
+      HintPaint10_17: -4550434571631542583
+      HintPaint10_18: -4848242666134889881
+      HintPaint10_19: 2662597120015025848
+      HintPaint10_2: -1930292149702259919
+      HintPaint10_3: 5246909705016412179
+      HintPaint10_4: -2065785521578657966
+      HintPaint10_5: -5548894408227530172
+      HintPaint10_6: -7508104997070959148
+      HintPaint10_7: 3392156608146268605
+      HintPaint10_8: 4124338654106836612
+      HintPaint10_9: 1795447356554985960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
