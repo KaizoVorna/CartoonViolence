@@ -192,9 +192,13 @@ Mon.19.5.2025
 <br>
 Sami: Started testing shutter and wallswitch scripts and tried connecting them to each other
 <br>
+Touko: I tweaked player physics and added functionality to wallswitches that makes them trigger only when player is in front of it.
+<br>
 <br>
 Tue.20.5.2025
 <br>
 Sami: Started making anvil gameobject in Unity
 <br>
 Eelis: I photographed Joni Lampela for Frank Pastel's sprites and received a paper cut in the progress.
+<br>
+Touko: I helped with photographing Lampela and didn't get cut, except in editing. Also started laying down some layout for the actual level.
