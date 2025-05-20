@@ -192,3 +192,9 @@ Mon.19.5.2025
 <br>
 Sami: Started testing shutter and wallswitch scripts and tried connecting them to each other
 <br>
+<br>
+Tue.20.5.2025
+<br>
+Sami: Started making anvil gameobject in Unity
+<br>
+Eelis: I photographed Joni Lampela for Frank Pastel's sprites and received a paper cut in the progress.
