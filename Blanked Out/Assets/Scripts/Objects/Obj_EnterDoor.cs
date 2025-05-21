@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class Obj_EnterDoor : MonoBehaviour
 {
+    //This is the door you enter areas from. If it exists, always start with an animation of Frank coming through it.
+    //Cannot be opened.
+    //Acts as the spawn point for Frank.
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
