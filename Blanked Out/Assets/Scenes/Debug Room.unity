@@ -490,7 +490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 0}
-  sceneIndex: 0
+  sceneIndex: 2
   movement: {fileID: 1758381666}
 --- !u!61 &353423327
 BoxCollider2D:
