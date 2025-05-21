@@ -10,14 +10,24 @@ public class DrawBadManager : MonoBehaviour
     public float followSpeed = 15f;
     public Transform player;
     public Vector2 startPos;
+    public Transform m_GroundCheck;
+    const float k_GroundedRadius = .2f;
+    private bool m_Grounded;
+    [SerializeField] private LayerMask m_WhatIsGround;
 
     void Start()
     {
         startPos = drawpbadMenuUI.transform.position;
     }
     // Update is called once per frame
+
+    private void FixedUpdate()
+    {
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
+    }
     void Update()
     {
+
         if (Input.GetButtonDown("DrawBad"))
         {
 
@@ -33,7 +43,8 @@ public class DrawBadManager : MonoBehaviour
             player.GetComponent<Player_Move>().enabled = true;
 
         }
+
       
-        
+      
     }
 }
