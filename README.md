@@ -209,4 +209,6 @@ Touko: I helped with photographing Lampela and didn't get cut, except in editing
 <br>
 Daniel: Finished with picturea of DB actions.
 <br>
+Sara: I made collectible counting script and managed to get the art menu show collected item number. I also edited the main character footage and then lost my mind because github does not like big video files. And MPEG4 is a shit.
+<br>
 <br>
