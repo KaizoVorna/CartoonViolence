@@ -10,11 +10,13 @@ public class Obj_ExitDoor : MonoBehaviour
 
     public GameObject loadingScreen; //This is in case it's needed, e.g. when changing areas (as opposed to zones within an area.)
     public int sceneIndex;
+    public Player_Move movement;
 
     private void OnTriggerEnter2D(Collider2D player)
     {
         if (player.tag == "Player")
         {
+            movement.enabled = false;
             StartCoroutine(LoadSceneAsync(sceneIndex));
         }
     }
@@ -36,6 +38,7 @@ public class Obj_ExitDoor : MonoBehaviour
             {
                 yield return new WaitForSeconds(2f);
                 operation.allowSceneActivation = true;
+                movement.enabled = true;
             }
 
             yield return null;
