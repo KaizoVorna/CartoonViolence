@@ -217,3 +217,6 @@ Wed.21.5.2025
 Eelis: Started scripting Migraine Morton's functions, made great progress, learnt about scripting and got stuck. Awaiting for the help of Joni once again.
 <br>
 Sara: I managed to export all individual clips of franks movements and figured out how to make jumpscares.
+<br>
+Touko: I added the doors to serve as boundaries between scenes and lost my smile and optimism. But at least we decided something important: If we survive, we're celebrating with devil's food cake.
+<br>
