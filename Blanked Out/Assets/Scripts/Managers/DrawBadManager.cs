@@ -23,7 +23,6 @@ public class DrawBadManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        bool wasGrounded = m_Grounded;
         m_Grounded = false;
 
         // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
@@ -38,24 +37,25 @@ public class DrawBadManager : MonoBehaviour
     }
     void Update()
     {
-
-        if (Input.GetButtonDown("DrawBad"))
+        if (m_Grounded)
         {
+            if (Input.GetButtonDown("DrawBad"))
+            {
 
-            drawpbadMenuUI.SetActive(true);
-            drawpbadMenuUI.transform.position = Vector2.MoveTowards(transform.position, player.position, followSpeed * Time.deltaTime);
-            player.GetComponent<Player_Move>().enabled = false;
+                drawpbadMenuUI.SetActive(true);
+                drawpbadMenuUI.transform.position = Vector2.MoveTowards(transform.position, player.position, followSpeed * Time.deltaTime);
+                player.GetComponent<Player_Move>().enabled = false;
+            }
+            else if (Input.GetButtonUp("DrawBad"))
+            {
+
+                drawpbadMenuUI.transform.position = startPos;
+                drawpbadMenuUI.SetActive(false);
+                player.GetComponent<Player_Move>().enabled = true;
+
+            }
+
+
         }
-        else if (Input.GetButtonUp("DrawBad"))
-        {
-            
-            drawpbadMenuUI.transform.position = startPos;
-            drawpbadMenuUI.SetActive(false);
-            player.GetComponent<Player_Move>().enabled = true;
-
-        }
-
-      
-      
     }
 }
