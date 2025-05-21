@@ -215,3 +215,5 @@ Sara: I made collectible counting script and managed to get the art menu show co
 Wed.21.5.2025
 <br>
 Eelis: Started scripting Migraine Morton's functions, made great progress, learnt about scripting and got stuck. Awaiting for the help of Joni once again.
+<br>
+Sara: I managed to export all individual clips of franks movements and figured out how to make jumpscares.
