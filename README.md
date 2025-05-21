@@ -187,12 +187,16 @@ Touko: I lost my mind. But I also got the ledge grabbing working! Also drew a ba
 <br>
 Sami: Scripts for Shutter and Wallswitch is ready to be tested.
 <br>
+Daniel: Still DB stuff - script, stile, size, (let me recognize, my life style is ice ,so I newer sayin' twice ....this is Hip-Hop babyyyy xD).
+<br>
 <br>
 Mon.19.5.2025
 <br>
 Sami: Started testing shutter and wallswitch scripts and tried connecting them to each other
 <br>
 Touko: I tweaked player physics and added functionality to wallswitches that makes them trigger only when player is in front of it.
+<br>
+Daniel: Started to make some pictures for DrawBad actions: door, bonfire, anvil and bomb.
 <br>
 <br>
 Tue.20.5.2025
@@ -203,5 +207,10 @@ Eelis: I photographed Joni Lampela for Frank Pastel's sprites and received a pap
 <br>
 Touko: I helped with photographing Lampela and didn't get cut, except in editing. Also started laying down some layout for the actual level.
 <br>
+Daniel: Finished with picturea of DB actions.
+<br>
 Sara: I made collectible counting script and managed to get the art menu show collected item number. I also edited the main character footage and then lost my mind because github does not like big video files. And MPEG4 is a shit.
+<br>
+<br>
+Wed.21.5.2025
 <br>
