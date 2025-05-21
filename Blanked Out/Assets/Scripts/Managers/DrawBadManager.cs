@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class DrawBadManager : MonoBehaviour
+    
 {
 
     public GameObject drawpbadMenuUI;
@@ -22,12 +23,17 @@ public class DrawBadManager : MonoBehaviour
 
             drawpbadMenuUI.SetActive(true);
             drawpbadMenuUI.transform.position = Vector2.MoveTowards(transform.position, player.position, followSpeed * Time.deltaTime);
+            player.GetComponent<Player_Move>().enabled = false;
         }
         else if (Input.GetButtonUp("DrawBad"))
         {
+            
             drawpbadMenuUI.transform.position = startPos;
             drawpbadMenuUI.SetActive(false);
+            player.GetComponent<Player_Move>().enabled = true;
+
         }
+      
         
     }
 }
