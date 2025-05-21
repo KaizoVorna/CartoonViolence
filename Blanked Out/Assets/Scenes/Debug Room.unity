@@ -3189,6 +3189,11 @@ MonoBehaviour:
   followSpeed: 15
   player: {fileID: 1758381660}
   startPos: {x: 0, y: 0}
+  m_GroundCheck: {fileID: 639091124}
+  m_Grounded: 0
+  m_WhatIsGround:
+    serializedVersion: 2
+    m_Bits: 192
 --- !u!1 &1775872047
 GameObject:
   m_ObjectHideFlags: 0
