@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fire place ghost_0: 2992385918599500128
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
