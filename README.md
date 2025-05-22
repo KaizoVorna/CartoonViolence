@@ -223,3 +223,5 @@ Touko: I added the doors to serve as boundaries between scenes and lost my smile
 <br>
 Thu.22.5.2025
 <br>
+Sami: Added rb2D and BoxC2D for anvil and made prefab for it. 
+<br>
