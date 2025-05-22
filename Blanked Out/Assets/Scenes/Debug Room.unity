@@ -492,7 +492,9 @@ MonoBehaviour:
   loadingScreen: {fileID: 0}
   sceneIndex: 2
   movement: {fileID: 1758381666}
-  animator: {fileID: 0}
+  drawBad: {fileID: 1758381670}
+  thisAnimator: {fileID: 1105231590}
+  playerAnimator: {fileID: 1758381671}
 --- !u!61 &353423327
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3325,6 +3327,7 @@ GameObject:
   - component: {fileID: 1758381668}
   - component: {fileID: 1758381669}
   - component: {fileID: 1758381670}
+  - component: {fileID: 1758381671}
   m_Layer: 0
   m_Name: FrankPlaceHolder_0
   m_TagString: Player
@@ -3634,6 +3637,28 @@ MonoBehaviour:
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 192
+--- !u!95 &1758381671
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758381656}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0b63233079355204db777e625cacead0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1775872047
 GameObject:
   m_ObjectHideFlags: 0

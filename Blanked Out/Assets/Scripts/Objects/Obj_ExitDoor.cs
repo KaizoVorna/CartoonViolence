@@ -11,6 +11,7 @@ public class Obj_ExitDoor : MonoBehaviour
     public GameObject loadingScreen; //This is in case it's needed, e.g. when changing areas (as opposed to zones within an area.)
     public int sceneIndex;
     public Player_Move movement;
+    public DrawBadManager drawBad;
     public Animator thisAnimator;
     public Animator playerAnimator;
 
@@ -19,6 +20,7 @@ public class Obj_ExitDoor : MonoBehaviour
         if (player.tag == "Player")
         {
             movement.enabled = false;
+            drawBad.enabled = false;
             thisAnimator.Play("Open");
             StartCoroutine(LoadSceneAsync(sceneIndex));
         }
@@ -42,6 +44,7 @@ public class Obj_ExitDoor : MonoBehaviour
                 yield return new WaitForSeconds(2f);
                 operation.allowSceneActivation = true;
                 movement.enabled = true;
+                drawBad.enabled = true;
             }
 
             yield return null;
