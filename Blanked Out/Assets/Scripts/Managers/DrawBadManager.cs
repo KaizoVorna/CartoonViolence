@@ -12,7 +12,7 @@ public class DrawBadManager : MonoBehaviour
     public Vector2 startPos;
     public Transform m_GroundCheck;
     const float k_GroundedRadius = .2f;
-    public bool m_Grounded;
+    public bool m_Grounded = false;
     [SerializeField] private LayerMask m_WhatIsGround;
 
     void Start()

@@ -18,6 +18,7 @@ public class Obj_ExitDoor : MonoBehaviour
         if (player.tag == "Player")
         {
             movement.enabled = false;
+            animator.Play("Cylinder_003|Cylinder_003Action_001");
             StartCoroutine(LoadSceneAsync(sceneIndex));
         }
     }
