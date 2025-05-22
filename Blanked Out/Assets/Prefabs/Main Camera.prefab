@@ -2565,7 +2565,6 @@ GameObject:
   - component: {fileID: 6264746626635626585}
   - component: {fileID: 7240374868125307131}
   - component: {fileID: 515739120538506995}
-  - component: {fileID: 6333660533492935997}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2604,7 +2603,7 @@ Canvas:
   m_GameObject: {fileID: 5810903454692008825}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2612,8 +2611,8 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: 1
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -2674,27 +2673,6 @@ MonoBehaviour:
   pauseMenuUI: {fileID: 8575769754716491514}
   artMenuUI: {fileID: 784800368047222657}
   optionsMenuUI: {fileID: 7158660476094933123}
---- !u!114 &6333660533492935997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5810903454692008825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b53ee049b1cd3414ab9d80067d121281, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  drawpbadMenuUI: {fileID: 0}
-  followSpeed: 15
-  player: {fileID: 0}
-  startPos: {x: 0, y: 0}
-  m_GroundCheck: {fileID: 0}
-  m_Grounded: 0
-  m_WhatIsGround:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!1 &5922489493780882824
 GameObject:
   m_ObjectHideFlags: 0
