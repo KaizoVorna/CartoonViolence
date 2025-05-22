@@ -1001,6 +1001,7 @@ GameObject:
   - component: {fileID: 631953134}
   - component: {fileID: 631953133}
   - component: {fileID: 631953135}
+  - component: {fileID: 631953136}
   m_Layer: 5
   m_Name: DrawPadMenu
   m_TagString: Untagged
@@ -1079,8 +1080,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f480b7f2e148d3a44857c5b04ecdf95e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 0}
-  spawnPoint: {fileID: 0}
+  objectToSpawn: {fileID: 3141450874567034252, guid: 6c1514e38f2949347b30bae6a5af120b, type: 3}
+  spawnPoint: {fileID: 611157242}
+--- !u!114 &631953136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631953131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69f14babfd3b1b4abb63b8d1e5e2511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToSpawn: {fileID: 3141450874567034252, guid: 6c1514e38f2949347b30bae6a5af120b, type: 3}
+  spawnPoint: {fileID: 611157242}
+  maxSpawnCount: 1
 --- !u!1 &639091123
 GameObject:
   m_ObjectHideFlags: 0

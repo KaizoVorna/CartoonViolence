@@ -11,4 +11,6 @@ public class Spawner : MonoBehaviour
         Instantiate(objectToSpawn, spawnPoint.position, spawnPoint.rotation);
         }
 
+   
+        
 }
