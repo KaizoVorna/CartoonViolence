@@ -874,6 +874,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b9861d2ee986ee543a95480217198097, type: 3}
   m_PrefabInstance: {fileID: 1105231588}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &611157241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 611157242}
+  m_Layer: 0
+  m_Name: SpawnerSpot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &611157242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611157241}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1758381660}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +1000,7 @@ GameObject:
   - component: {fileID: 631953132}
   - component: {fileID: 631953134}
   - component: {fileID: 631953133}
+  - component: {fileID: 631953135}
   m_Layer: 5
   m_Name: DrawPadMenu
   m_TagString: Untagged
@@ -1035,6 +1067,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631953131}
   m_CullTransparentMesh: 1
+--- !u!114 &631953135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631953131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f480b7f2e148d3a44857c5b04ecdf95e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 0}
+  spawnPoint: {fileID: 0}
 --- !u!1 &639091123
 GameObject:
   m_ObjectHideFlags: 0
@@ -3444,6 +3490,7 @@ Transform:
   - {fileID: 1120943042}
   - {fileID: 1779244412}
   - {fileID: 2103406781}
+  - {fileID: 611157242}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1758381661
@@ -3754,6 +3801,7 @@ GameObject:
   - component: {fileID: 1805092537}
   - component: {fileID: 1805092536}
   - component: {fileID: 1805092535}
+  - component: {fileID: 1805092538}
   m_Layer: 5
   m_Name: Button S.anvil
   m_TagString: Untagged
@@ -3825,7 +3873,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2798641737493939345, guid: 6c1514e38f2949347b30bae6a5af120b, type: 3}
+      - m_Target: {fileID: 1805092538}
         m_TargetAssemblyTypeName: Spawner, Assembly-CSharp
         m_MethodName: SpawnObject
         m_Mode: 1
@@ -3875,6 +3923,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805092533}
   m_CullTransparentMesh: 1
+--- !u!114 &1805092538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805092533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f480b7f2e148d3a44857c5b04ecdf95e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 3141450874567034252, guid: 6c1514e38f2949347b30bae6a5af120b, type: 3}
+  spawnPoint: {fileID: 611157242}
 --- !u!4 &1846285171 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1773420099396175382, guid: 2c64900c05664b34eb5a6d10d064f281, type: 3}
@@ -5128,7 +5190,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8596865533095382512, guid: eb930887309f0a34c9d88b8ca1716237, type: 3}
+  m_Sprite: {fileID: -9003275205405865231, guid: 9e420d896a399924eb161e077e0d9cb3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -45,7 +45,9 @@ public class PauseManager : MonoBehaviour
 
     public void LoadCheckpoint()
     {
-
+        var currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
+        Time.timeScale = 1f;
     }
 
     public void CheckArt()
