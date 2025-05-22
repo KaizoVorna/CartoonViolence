@@ -225,3 +225,7 @@ Thu.22.5.2025
 <br>
 Sami: Added rb2D and BoxC2D for anvil and made prefab for it. 
 <br>
+Sara: I made mr. phant jumpscare work and added animation for that. I also started to made blnaked out logo for digital form from sketches that eelis draw.
+<br> 
+Touko: I designed the second Zone for the tutorial level, drew some more paint and made bad puns. Also lots and lots of tweaking.
+<br>
