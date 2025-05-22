@@ -258,6 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7db0473e0a29244bbda1d77d589d4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneIndex: 2
 --- !u!1 &187479671
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,8 +675,8 @@ Camera:
   m_GameObject: {fileID: 628858676}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1802,6 +1803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7db0473e0a29244bbda1d77d589d4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneIndex: 0
 --- !u!1 &1368793103
 GameObject:
   m_ObjectHideFlags: 0
@@ -1876,7 +1878,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1283004339
-  m_SortingLayer: -1
+  m_SortingLayer: -3
   m_SortingOrder: -2
   m_Sprite: {fileID: 6190396094780905022, guid: fbfb4a7caa9152843ab4f262d091eb80, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
