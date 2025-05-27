@@ -233,3 +233,6 @@ Eelis: I switched from scripting MM to making Frank's animations due to some rea
 <br>
 <br>
 Tue.27.5.2025
+<br>
+Sami: Worked with musics
+<br>
