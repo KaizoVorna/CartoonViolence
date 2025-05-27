@@ -21,7 +21,7 @@ public class ShutterTriggerButton : MonoBehaviour
             Debug.Log("Pushed");
             Activate();
 
-            coolOff = 3000;
+            coolOff = 1f;
         }
     }
 
