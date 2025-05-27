@@ -238,3 +238,7 @@ Sami: Worked with musics
 <br>
 Eelis: Made great progress with Frank's animation task. Cut out and refined ss from sprite videos, pushed a pair of finished sprite chains into the project folder and will continue to refine, create and upload more finished sprite chains into the project folder tomorrow.
 <br>
+Sara: I made the logo on digital and worked with main menus.
+<br>
+Touko: I shut down my computer before writing this :( Otherwise I programmed cooldowns for buttons and drawpad and added in controller support. (Except for menus.)
+<br>
