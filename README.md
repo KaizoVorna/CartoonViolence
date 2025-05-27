@@ -236,3 +236,5 @@ Tue.27.5.2025
 <br>
 Sami: Worked with musics
 <br>
+Eelis: Made great progress with Frank's animation task. Cut out and refined ss from sprite videos, pushed a pair of finished sprite chains into the project folder and will continue to refine, create and upload more finished sprite chains into the project folder tomorrow.
+<br>
