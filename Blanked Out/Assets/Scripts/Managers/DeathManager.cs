@@ -17,6 +17,18 @@ public class DeathManager : MonoBehaviour
         Reload();
     }
 
+    public void Crush()
+    {
+        if (this.tag == "Player")
+        {
+            Reload();
+        }
+        else
+        {
+            Destroy(this.gameObject);   
+        }
+    }
+
     void Reload() 
     {
         var currentScene = SceneManager.GetActiveScene();
