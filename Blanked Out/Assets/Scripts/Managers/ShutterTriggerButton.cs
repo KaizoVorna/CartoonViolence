@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.WSA;
@@ -7,12 +8,20 @@ public class ShutterTriggerButton : MonoBehaviour
     [SerializeField] private ShutterSetActive shutter;
     bool canTrigger = false;
 
+    float coolOff = 0f;
+
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W) && canTrigger)
+        if (coolOff > 0f)
         {
+            coolOff -= Time.deltaTime;
+        }
+        else if (Input.GetAxisRaw("Vertical") == 1 && canTrigger)
+        { 
             Debug.Log("Pushed");
             Activate();
+
+            coolOff = 1f;
         }
     }
 
