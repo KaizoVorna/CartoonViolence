@@ -229,3 +229,7 @@ Sara: I made mr. phant jumpscare work and added animation for that. I also start
 <br> 
 Touko: I designed the second Zone for the tutorial level, drew some more paint and made bad puns. Also lots and lots of tweaking.
 <br>
+Eelis: I switched from scripting MM to making Frank's animations due to some reason i can't remember right now.
+<br>
+<br>
+Tue.27.5.2025
