@@ -40,7 +40,7 @@ public class Player_LedgeMov : MonoBehaviour
     {
         if (isHanging)
         {
-            if (Input.GetKey(KeyCode.S))
+            if (Input.GetAxisRaw("Vertical") == -1)
             {
                 //Drop down
                 transform.position = new Vector2(transform.position.x, transform.position.y - 0.4f);
@@ -49,7 +49,7 @@ public class Player_LedgeMov : MonoBehaviour
                 movement.enabled = true;
             }
 
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetAxisRaw("Vertical") == 1)
             {
                 //Climb up
                 rb.bodyType = RigidbodyType2D.Kinematic;

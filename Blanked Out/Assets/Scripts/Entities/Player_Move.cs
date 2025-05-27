@@ -30,7 +30,7 @@ public class Player_Move : MonoBehaviour
             isJumping = true;
         }
 
-        if (Input.GetButton("Sneak"))
+        if (Input.GetButton("Sneak") && !isCrouching)
         {
             isSneaking = true;
         }
@@ -39,7 +39,7 @@ public class Player_Move : MonoBehaviour
             isSneaking = false;
         }
 
-        if (Input.GetButton("Run"))
+        if (Input.GetButton("Run") && !isCrouching)
         {
             isRunning = true;
         }
@@ -48,7 +48,7 @@ public class Player_Move : MonoBehaviour
             isRunning = false;
         }
 
-        if (Input.GetButton("Crouch"))
+        if (Input.GetAxisRaw("Vertical") < -0.1f)
         {
             isCrouching = true;
         }
