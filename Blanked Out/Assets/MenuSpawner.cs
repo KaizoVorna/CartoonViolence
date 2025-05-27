@@ -4,18 +4,13 @@ using UnityEngine;
 
 public class MenuSpawner : MonoBehaviour
 {
-        public GameObject CampFire;
         public Transform spawnPoint;
         public int maxSpawnCount = 1;
         private int currentSpawnCount = 0;
         public GameObject anvil;
         public GameObject Bomb;
         public GameObject Door;
-
-        public void SpawnObject()
-        {
-
-        }
+        public GameObject CampFire;
 
     private void Update()
     {
