@@ -16,7 +16,8 @@ public class MenuSpawner : MonoBehaviour
         public Image BombCharge;
         public Image DoorCharge;
         public Image CampFireCharge;
-        float chargeUp = 1f;
+        float chargeUp = 0f;
+        public float timeNeeded;
 
     private void Update()
     {
@@ -28,20 +29,23 @@ public class MenuSpawner : MonoBehaviour
                 return;
             }
 
-            chargeUp -= Time.deltaTime;
+            chargeUp += Time.deltaTime;
+            anvilCharge.fillAmount = Mathf.Clamp(chargeUp, 0, 1);
 
-            if (chargeUp < 0f)
+            if (chargeUp > timeNeeded)
             {
                 Vector2 spawnPos = spawnPoint ? spawnPoint.position : Vector2.zero;
                 Instantiate(anvil, spawnPos, Quaternion.identity);
                 currentSpawnCount++;
-                chargeUp = 1f;
+                anvilCharge.fillAmount = 0f;
+                chargeUp = 0f;
                 return;
             }
         }
         else
         {
-            chargeUp = 1f;
+            anvilCharge.fillAmount = 0f;
+            chargeUp = 0f;
         }
 
         if (Input.GetAxisRaw("Vertical") == 1f && Door != null)
