@@ -242,3 +242,6 @@ Sara: I made the logo on digital and worked with main menus.
 <br>
 Touko: I shut down my computer before writing this :( Otherwise I programmed cooldowns for buttons and drawpad and added in controller support. (Except for menus.)
 <br>
+<br>
+Wed.28.5.2025
+<Br>
