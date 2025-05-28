@@ -27,18 +27,20 @@ public class ShutterSetActive : MonoBehaviour
     public bool isOpen = false;
     public void ToggleShutter() 
     {
-        audioSource.PlayOneShot(OpenDoorSound);
+
         if (gameObject.activeSelf)
         {
-            
+            audioSource.PlayOneShot(OpenDoorSound);
             isOpen = true;
             gameObject.SetActive(false);
+
         }
         else 
         {
             
             isOpen = false;
             gameObject.SetActive(true);
+            audioSource.PlayOneShot(CloseDoorSound);
         }
     }
 
