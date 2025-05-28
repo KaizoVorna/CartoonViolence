@@ -220,6 +220,8 @@ Sara: I managed to export all individual clips of franks movements and figured o
 <br>
 Touko: I added the doors to serve as boundaries between scenes and lost my smile and optimism. But at least we decided something important: If we survive, we're celebrating with devil's food cake.
 <br>
+Daniel: DrawBad's script stuff, fixed small tings like ground check and working only when is grounded.
+<br>
 <br>
 Thu.22.5.2025
 <br>
@@ -230,6 +232,8 @@ Sara: I made mr. phant jumpscare work and added animation for that. I also start
 Touko: I designed the second Zone for the tutorial level, drew some more paint and made bad puns. Also lots and lots of tweaking.
 <br>
 Eelis: I switched from scripting MM to making Frank's animations due to some reason i can't remember right now.
+<br>
+Daniel: Added the anvil prefab and we have tested it . Fixed some trouble whith script after afternoon (on my one, WAT E HEE..., I did something on my one,..dddaaam, whith script - aaaahhhhh). Now we can spawn the number of anvil, chuse the number in the special menu. Now is new ability to use a kayboard or gamepad for spawn the object, and it spawnin' near by player - the "spawnposition" was created with the best helper in our team AKA ConsolMAster,GameBoy I don't know... Nintendo and Sega's walkin' vikipedia - Touko.
 <br>
 <br>
 Tue.27.5.2025
