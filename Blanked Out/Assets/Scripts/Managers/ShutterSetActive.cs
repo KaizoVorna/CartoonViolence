@@ -6,7 +6,7 @@ public class ShutterSetActive : MonoBehaviour
     public bool isOpen = false;
     public void ToggleShutter() 
     {
-        if (!isOpen)
+        if (gameObject.activeSelf)
         {
             isOpen = true;
             gameObject.SetActive(false);
