@@ -1594,7 +1594,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a088a0763e07fd4d98e4b8877b7f7b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shutter: {fileID: 2123825861}
+  shutter1: {fileID: 2123825861}
+  shutter2: {fileID: 0}
 --- !u!61 &992647363
 BoxCollider2D:
   m_ObjectHideFlags: 0

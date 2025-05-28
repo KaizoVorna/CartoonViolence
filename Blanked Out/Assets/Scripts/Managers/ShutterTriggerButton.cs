@@ -5,7 +5,8 @@ using UnityEngine.WSA;
 
 public class ShutterTriggerButton : MonoBehaviour
 {
-    [SerializeField] private ShutterSetActive shutter;
+    [SerializeField] private ShutterSetActive shutter1;
+    [SerializeField] private ShutterSetActive shutter2;
     bool canTrigger = false;
 
     float coolOff = 0f;
@@ -43,7 +44,15 @@ public class ShutterTriggerButton : MonoBehaviour
 
     public void Activate()
     {
-        shutter.ToggleShutter();
+        if (shutter1 != null)
+        {
+            shutter1.ToggleShutter();
+        }
+
+        if (shutter2 != null)
+        {
+            shutter2.ToggleShutter();
+        }
     }    
 
 }
