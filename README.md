@@ -250,3 +250,5 @@ Touko: I shut down my computer before writing this :( Otherwise I programmed coo
 Wed.28.5.2025
 <Br>
 Sami: Continued making music. 
+<br>
+Eelis: Finished the sprite chains for Frank's main animations, now deployment-ready for animating.
