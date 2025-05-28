@@ -233,7 +233,7 @@ Touko: I designed the second Zone for the tutorial level, drew some more paint a
 <br>
 Eelis: I switched from scripting MM to making Frank's animations due to some reason i can't remember right now.
 <br>
-Daniel: Added the anvil prefab and we have tested it . Fixed some trouble with script after afternoon (on my own, WAT E HEE..., I did something on my own,..dddaaam, with script - aaaahhhhh). Now we can spawn the number of anvil, chuse the number in the special menu. Now is new ability to use a kayboard or gamepad for spawn the object, and it spawnin' near by player - the "spawnposition" was created with the best helper in our team AKA ConsolMAster,GameBoy I don't know... Nintendo and Sega's walkin' vikipedia - Touko.
+Daniel: Added the anvil prefab and we have tested it . Fixed some trouble with script after afternoon (on my own, WAT E HEE..., I did something on my own,..dddaaam, with script - aaaahhhhh). Now we can spawn the number of anvil, chuse the number in the special menu. Now is new ability to use a kayboard or gamepad for spawn the object, and it spawnin' near by player - the "spawnposition" was created with the best helper in our team AKA ConsoleMaster,GameBoy I don't know... Nintendo and Sega's walkin' wikipedia - Touko.
 <br>
 <br>
 Tue.27.5.2025
