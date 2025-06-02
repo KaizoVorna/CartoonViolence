@@ -5,9 +5,10 @@ using UnityEngine;
 
 
 
+
 public class ShutterSetActive : MonoBehaviour
 {
-    
+
 
    
 
@@ -20,6 +21,7 @@ public class ShutterSetActive : MonoBehaviour
             
             isOpen = true;
             gameObject.SetActive(false);
+            
 
         }
         else 

@@ -1,12 +1,19 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine.Audio;
 
 public class Obj_ExitDoor : MonoBehaviour
 {
     //This is the exit door signaling the end of a zone.
     //If Frank touches it, he will automatically open it, becoming invincible for the animation. 
     //After animation finishes, load the next scene.
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip OpenDoorSound;
+
+    
 
     public GameObject loadingScreen; //This is in case it's needed, e.g. when changing areas (as opposed to zones within an area.)
     public int sceneIndex;
@@ -23,6 +30,7 @@ public class Obj_ExitDoor : MonoBehaviour
             drawBad.enabled = false;
             thisAnimator.Play("Open");
             StartCoroutine(LoadSceneAsync(sceneIndex));
+            audioSource.PlayOneShot(OpenDoorSound);
         }
     }
 
