@@ -260,5 +260,5 @@ Daniel: Fought mercilessly... with the door script - sound effect.
 <br>
 Mon.2.6.2025
 <br>
-Daniel:I'm finding some tasks for soundeffects. Working with doorOpen effects ("find-cut-change-add" and so on). 
+Daniel: I'm finding some tasks for soundeffects. Working with doorOpen effects ("find-cut-change-add" and so on). 
 
