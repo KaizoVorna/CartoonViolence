@@ -2,9 +2,28 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.WSA;
+using UnityEngine.Audio;
 
 public class ShutterTriggerButton : MonoBehaviour
 {
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip OpenDoorSound;
+
+    void Start()
+    {
+        AudioSource audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
+
+            audioSource.Play();
+        }
+
+
+    }
+
     [SerializeField] private ShutterSetActive shutter1;
     [SerializeField] private ShutterSetActive shutter2;
     bool canTrigger = false;
@@ -21,7 +40,7 @@ public class ShutterTriggerButton : MonoBehaviour
         { 
             Debug.Log("Pushed");
             Activate();
-
+            audioSource.PlayOneShot(OpenDoorSound);
             coolOff = 1f;
         }
     }
@@ -38,6 +57,7 @@ public class ShutterTriggerButton : MonoBehaviour
         {
             Debug.Log("Player Detected");
             canTrigger = true;
+            
 
         }
     }
