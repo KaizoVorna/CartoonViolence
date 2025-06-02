@@ -914,7 +914,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &519420036
+--- !u!114 &519420040
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5655,7 +5655,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4374221849150406602, guid: 9f22484e7b1077b4a99994e69120372b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 519420036}
+      addedObject: {fileID: 519420040}
     - targetCorrespondingSourceObject: {fileID: 4374221849150406602, guid: 9f22484e7b1077b4a99994e69120372b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 519420035}
