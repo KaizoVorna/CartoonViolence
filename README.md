@@ -264,3 +264,4 @@ Daniel: I'm finding some tasks for soundeffects. Working with doorOpen effects, 
 <br>
 Sara: I made few designs for our new enemy Chillspine. I also made HCD ready and made a poster for our game.
 <br>
+Eelis: I created Idle/Walk/Run animations for Frank and will make the rest tomorrow, and hopefully get to configurance part too.
