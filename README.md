@@ -257,6 +257,8 @@ Eelis: Finished the sprite chains for Frank's main animations, now deployment-re
 <br>
 Daniel: Fought mercilessly... with the door script - sound effect.
 <br>
+Touko: I forgot! Uh, I think I finished the demo level's layout, mostly.
+<br>
 <br>
 Mon.2.6.2025
 <br>
@@ -265,3 +267,7 @@ Daniel: I'm finding some tasks for soundeffects. Working with doorOpen effects, 
 Sara: I made few designs for our new enemy Chillspine. I also made HCD ready and made a poster for our game.
 <br>
 Eelis: I created Idle/Walk/Run animations for Frank and will make the rest tomorrow, and hopefully get to configurance part too.
+<br>
+Touko: I animated and programmed Chillspine, added a pressure plate, prefabbed Frank and tried in vain to get the Screen to change only once.
+<br>
+<br>
