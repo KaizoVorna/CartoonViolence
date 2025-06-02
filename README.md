@@ -256,3 +256,8 @@ Sami: Continued making music.
 Eelis: Finished the sprite chains for Frank's main animations, now deployment-ready for animating.
 <br>
 Daniel: Fought mercilessly... with the door script - sound effect.
+<br>
+<br>
+Mon.2.6.2025
+<br>
+
