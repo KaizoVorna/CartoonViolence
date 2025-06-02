@@ -8,8 +8,15 @@ public class WE_CameraMove : MonoBehaviour
     {
         if (player.tag == "Player")
         {
-            horizontalMove = Input.GetAxisRaw("Horizontal");
-            Camera.main.transform.Translate((horizontalMove * 25) / 2, 0f, 0f);
+                horizontalMove = Input.GetAxisRaw("Horizontal");
+                if (horizontalMove < 0f)
+                {
+                    Camera.main.transform.Translate(-25f / 2, 0f, 0f);
+                }
+                else
+                {
+                    Camera.main.transform.Translate(25f / 2, 0f, 0f);
+                }
         }
     }
 }
