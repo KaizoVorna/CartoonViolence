@@ -6,6 +6,7 @@ public class AIchase : MonoBehaviour
 {
     public GameObject player;
     public float speed;
+    bool isActive;
 
     private float distance;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
