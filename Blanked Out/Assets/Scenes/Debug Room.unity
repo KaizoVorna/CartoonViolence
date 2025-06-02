@@ -3611,7 +3611,7 @@ GameObject:
   - component: {fileID: 1758381670}
   - component: {fileID: 1758381671}
   m_Layer: 0
-  m_Name: FrankPlaceHolder_0
+  m_Name: FrankPastel
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3688,7 +3688,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4512178347683767759, guid: 67be337a1904b7d489ff318e4996c726, type: 3}
+  m_Sprite: {fileID: -2135250252837997205, guid: 910cf39bc95c903428603c36b96e2e9d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3759,7 +3759,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.69, y: 13.94}
+    oldSize: {x: 1.35, y: 5.42}
     newSize: {x: 9.69, y: 13.94}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
