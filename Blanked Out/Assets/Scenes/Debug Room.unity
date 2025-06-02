@@ -325,6 +325,7 @@ MonoBehaviour:
   player: {fileID: 1758381656}
   speed: 2
   nestPoint: {x: 0, y: 0}
+  deathManager: {fileID: 0}
 --- !u!58 &297010338
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -527,6 +528,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6de380041f0d2c143b8cad7bad50d829, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  OpenDoorSound: {fileID: 8300000, guid: 808eb2ffde1beb54fb43d8176f18268b, type: 3}
   loadingScreen: {fileID: 0}
   sceneIndex: 2
   movement: {fileID: 1758381666}
@@ -1634,7 +1637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 992647364}
-  OpenDoorSound: {fileID: 8300000, guid: cab66112cb024284ea853bca76e73bb3, type: 3}
+  OpenDoorSound: {fileID: 8300000, guid: 5a63a5321fe82d74f8b3ec8d6bded91c, type: 3}
   shutter1: {fileID: 2123825861}
   shutter2: {fileID: 0}
 --- !u!61 &992647363
@@ -2878,7 +2881,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cab66112cb024284ea853bca76e73bb3, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: cab66112cb024284ea853bca76e73bb3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -5255,7 +5258,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cab66112cb024284ea853bca76e73bb3, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: cab66112cb024284ea853bca76e73bb3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
