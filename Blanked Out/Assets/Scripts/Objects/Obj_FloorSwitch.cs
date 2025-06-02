@@ -6,15 +6,35 @@ public class Obj_FloorSwitch : MonoBehaviour
     //To Do:
     //-Create a pressed state, which toggles the script of the associated object for as long as an object is on the switch.
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private ShutterSetActive shutter1;
+    [SerializeField] private ShutterSetActive shutter2;
+    bool isPressed;
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        
+        if (!isPressed)
+        {
+            Activate();
+        }
+        isPressed = true;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        
+        Activate();
+        isPressed = false;
+    }
+
+    public void Activate()
+    {
+        if (shutter1 != null)
+        {
+            shutter1.ToggleShutter();
+        }
+
+        if (shutter2 != null)
+        {
+            shutter2.ToggleShutter();
+        }
     }
 }
