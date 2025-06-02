@@ -8,7 +8,7 @@ public class AIchase : MonoBehaviour
     public float speed;
     bool isActive;
     public Vector2 nestPoint;
-    public DeathManager deathManager;
+    public Animator animator;
 
     private float distance;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -33,6 +33,7 @@ public class AIchase : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animator.SetBool("IsActive", isActive);
         if (!isActive)
         {
             distance = Vector2.Distance(transform.position, nestPoint);
@@ -47,11 +48,8 @@ public class AIchase : MonoBehaviour
 
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
 
-            if (transform.position == player.transform.position) 
-            {
-                deathManager.PlayerDamage();
-            }
-
         }
+
+
     }
 }
