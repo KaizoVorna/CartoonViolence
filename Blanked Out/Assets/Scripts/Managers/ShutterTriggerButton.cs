@@ -41,7 +41,7 @@ public class ShutterTriggerButton : MonoBehaviour
             Debug.Log("Pushed");
             Activate();
             audioSource.PlayOneShot(OpenDoorSound);
-            coolOff = 1f;
+            coolOff = 3f;
         }
     }
 
