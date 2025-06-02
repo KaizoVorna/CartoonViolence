@@ -246,9 +246,13 @@ Sara: I made the logo on digital and worked with main menus.
 <br>
 Touko: I shut down my computer before writing this :( Otherwise I programmed cooldowns for buttons and drawpad and added in controller support. (Except for menus.)
 <br>
+Daniel: Did some small fixes with the DrawBar menu - small for professional , but BIIIG and HUUUUGE AS HALL for me xD.
+<br>
 <br>
 Wed.28.5.2025
 <Br>
 Sami: Continued making music. 
 <br>
 Eelis: Finished the sprite chains for Frank's main animations, now deployment-ready for animating.
+<br>
+Daniel: Fought mercilessly... with the door script - sound effect.
