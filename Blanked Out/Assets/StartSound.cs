@@ -1,40 +1,37 @@
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class startSound : MonoBehaviour
-
-    
-
+public class StartSound : MonoBehaviour
 {
 
-    [Header("Audio")]                   // Added a script for game start
+
+    [Header("Audio")]
     public AudioSource audioSource;
-    public AudioClip StartSound;
+    public AudioClip startSound;
     private static bool hasPlayed = false;
 
 
-    void Start()
+
+    private void Start()
     {
         if (!hasPlayed)
         {
             audioSource = gameObject.AddComponent<AudioSource>();
-            audioSource.clip = StartSound;
+            audioSource.clip = startSound;
 
             audioSource.playOnAwake = false;
 
-            audioSource.volume = 1.0f;
+            audioSource.volume = 0.5f;
 
-
-            audioSource.PlayOneShot(StartSound);
+            audioSource.PlayOneShot(startSound);
             hasPlayed = true;
         }
-        
     }
-    void Awake()
+
+    private void Awake()
     {
         DontDestroyOnLoad(gameObject);
     }
-
 
 
 

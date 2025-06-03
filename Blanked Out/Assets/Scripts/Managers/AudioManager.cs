@@ -13,4 +13,9 @@ public class AudioManager : MonoBehaviour
     {
         
     }
+
+
+    //This is the manager for music, audio cues, etc.
+    //To Do:
+    //-Create a ground for music changes, situational music?
 }
