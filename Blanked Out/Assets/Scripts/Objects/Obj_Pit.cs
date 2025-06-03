@@ -17,11 +17,11 @@ public class Obj_Pit : MonoBehaviour
         }
         else if (entity.tag == "Enemy") // Can be turned around in that it calls each enemy's individual death scream?
         {
-            Destroy(gameObject);
+            Destroy(entity);
         }
         else // This is for inanimate objects that fall in.
         {
-            Destroy(gameObject);
+            Destroy(entity);
         }
     }
 }
