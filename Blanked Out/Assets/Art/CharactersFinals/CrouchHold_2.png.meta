@@ -103,10 +103,10 @@ TextureImporter:
       name: CrouchHold_2_0
       rect:
         serializedVersion: 2
-        x: 63
-        y: 101
-        width: 445
-        height: 415
+        x: 51
+        y: 58
+        width: 366
+        height: 249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      CrouchHold_2_0: -8254092196924631647
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
