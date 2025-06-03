@@ -116,10 +116,10 @@ TextureImporter:
       name: DeathAnim_3_0
       rect:
         serializedVersion: 2
-        x: 86
-        y: 1
-        width: 1008
-        height: 468
+        x: 50
+        y: 0
+        width: 595
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

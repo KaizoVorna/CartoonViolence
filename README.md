@@ -275,3 +275,10 @@ Sami: Continued making background music AGAIN.
 <br>
 Tue.3.6.2025
 <br>
+Sami: Finished making the backgroundmusic and added it in to the demo.
+<br>
+Sara: I worked with death screen in unity. 
+<br>
+Touko: I polished general stuff, Frank's properties, level properties, enemy turning... Oh! And also fixed the collider double-take thing.
+<br>
+
