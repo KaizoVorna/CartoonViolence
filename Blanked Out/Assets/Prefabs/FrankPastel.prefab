@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 217493325212829533}
   - component: {fileID: 2049307387916380867}
   - component: {fileID: 791757010224161379}
-  - component: {fileID: 6228373443662075993}
   - component: {fileID: 2374304907630592764}
   - component: {fileID: 8397026550831219568}
   - component: {fileID: 2474252253307451332}
@@ -46,6 +45,7 @@ Transform:
   - {fileID: 189699039065397724}
   - {fileID: 6902630083722167393}
   - {fileID: 878466129884599285}
+  - {fileID: 1692680933632686576}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7522990311085058766
@@ -124,7 +124,7 @@ MonoBehaviour:
     m_Bits: 192
   m_GroundCheck: {fileID: 7118958813499183379}
   m_CeilingCheck: {fileID: 116147890040439683}
-  m_CrouchDisableCollider: {fileID: 6228373443662075993}
+  m_CrouchDisableCollider: {fileID: 3404188166957405418}
   m_AirSpeedMultiplier: 0.1
   audioSource: {fileID: 0}
   jumpSoundEffect: {fileID: 0}
@@ -245,43 +245,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.2472199, y: 1.83883}
   m_EdgeRadius: 0
---- !u!70 &6228373443662075993
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79102681789865235}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.045318604, y: 0.60793865}
-  m_Size: {x: 1.2714901, y: 3.5235736}
-  m_Direction: 0
 --- !u!114 &2374304907630592764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -622,6 +585,75 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!1 &3268920061435792797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1692680933632686576}
+  - component: {fileID: 3404188166957405418}
+  m_Layer: 0
+  m_Name: CrouchCollider
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1692680933632686576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3268920061435792797}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8263598059675248218}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &3404188166957405418
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3268920061435792797}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.045318604, y: 0.60793865}
+  m_Size: {x: 1.2714901, y: 3.5235736}
+  m_Direction: 0
 --- !u!1 &4105060558113030440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,9 +1463,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 61.1, y: 47.7}
+  m_AnchoredPosition: {x: -986.5202, y: -572.55005}
   m_SizeDelta: {x: 748.3, y: 496.2}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: -2.3, y: -2}
 --- !u!222 &8984652241846643923
 CanvasRenderer:
   m_ObjectHideFlags: 0
