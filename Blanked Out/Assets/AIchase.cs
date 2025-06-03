@@ -19,9 +19,12 @@ public class AIchase : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "Player" && !Input.GetButton("Sneak"))
         {
-            isActive = true;
+            if (Input.GetAxisRaw("Horizontal") != 0f)
+            {
+                isActive = true;
+            }
         }
     }
 
@@ -46,7 +49,13 @@ public class AIchase : MonoBehaviour
             distance = Vector2.Distance(transform.position, player.transform.position);
             Vector2 direction = player.transform.position - transform.position;
 
+            if (player.transform.position.x < transform.position.x)
+            {
+                transform.Rotate(0f, 180f, 0f);
+            }
+
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+
 
         }
 
