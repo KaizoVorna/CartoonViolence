@@ -3,7 +3,7 @@ using UnityEngine.Audio;
 
 public class startSound : MonoBehaviour
 
-
+    
 
 {
 
@@ -19,7 +19,7 @@ public class startSound : MonoBehaviour
         {
             audioSource = gameObject.AddComponent<AudioSource>();
             audioSource.clip = StartSound;
-            
+
             audioSource.playOnAwake = false;
 
             audioSource.volume = 1.0f;
@@ -28,7 +28,7 @@ public class startSound : MonoBehaviour
             audioSource.PlayOneShot(StartSound);
             hasPlayed = true;
         }
-
+        
     }
     void Awake()
     {

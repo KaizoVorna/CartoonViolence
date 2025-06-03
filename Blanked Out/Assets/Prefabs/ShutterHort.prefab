@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1239988073664948393}
   - component: {fileID: 2997937858830018504}
   - component: {fileID: 8491666217216629533}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ShutterHort
   m_TagString: Untagged
   m_Icon: {fileID: 0}
