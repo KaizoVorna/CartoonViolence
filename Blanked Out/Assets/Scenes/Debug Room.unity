@@ -862,7 +862,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &519420040
+--- !u!114 &519420044
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -871,9 +871,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 293818401}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67380b6767a9fe64d848f1a065c7fa86, type: 3}
+  m_Script: {fileID: 11500000, guid: d69ecb03604919d41b8f95a1690b9b58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 519420035}
+  startSound: {fileID: 8300000, guid: e20a4c6a7caac6d4dbe779dfa72c9adb, type: 3}
 --- !u!114 &584121709 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3606461304497036934, guid: c6c5ceee2307962439141c3e4f9c2060, type: 3}
@@ -2825,8 +2827,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff2c90967697054c9322ff9280b7596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftMove: 0
-  rightMove: 0
+  leftMove: 27
+  rightMove: 54
 --- !u!61 &1956126939
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3535,7 +3537,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4374221849150406602, guid: 9f22484e7b1077b4a99994e69120372b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 519420040}
+      addedObject: {fileID: 519420044}
     - targetCorrespondingSourceObject: {fileID: 4374221849150406602, guid: 9f22484e7b1077b4a99994e69120372b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 519420035}
