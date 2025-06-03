@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Obj_FloorSwitch : MonoBehaviour
 {
@@ -6,25 +7,40 @@ public class Obj_FloorSwitch : MonoBehaviour
     //To Do:
     //-Create a pressed state, which toggles the script of the associated object for as long as an object is on the switch.
 
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip PushButtonSound;
+   
+
     [SerializeField] private ShutterSetActive shutter1;
     [SerializeField] private ShutterSetActive shutter2;
     bool isPressed;
+    private bool hasPlayed = false; 
 
     private void OnTriggerStay2D(Collider2D collision)
-    {
+    {   
         if (!isPressed)
         {
+            audioSource.PlayOneShot(PushButtonSound);
+            hasPlayed = true;
             Activate();
         }
         isPressed = true;
     }
+    void OnDisable()
+    {
+        hasPlayed = false;
+    }
+
+
+
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         Activate();
         isPressed = false;
     }
-
+    
     public void Activate()
     {
         if (shutter1 != null)
@@ -36,5 +52,7 @@ public class Obj_FloorSwitch : MonoBehaviour
         {
             shutter2.ToggleShutter();
         }
+        
     }
+    
 }
