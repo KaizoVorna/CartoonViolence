@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class AIchase : MonoBehaviour
@@ -36,29 +37,34 @@ public class AIchase : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         animator.SetBool("IsActive", isActive);
+        Vector3 theScale = transform.localScale;
+        if (player.transform.position.x > transform.position.x)
+        {
+            theScale.x = -Mathf.Abs(theScale.x); // face right
+        }
+        else
+        {
+            theScale.x = Mathf.Abs(theScale.x); // face left
+        }
+
         if (!isActive)
         {
+            theScale.x = Mathf.Abs(theScale.x); // face right
+            transform.localScale = theScale;
             distance = Vector2.Distance(transform.position, nestPoint);
-
             transform.position = Vector2.MoveTowards(this.transform.position, nestPoint, speed * Time.deltaTime);
 
         }
         else
         {
+            transform.localScale = theScale;
             distance = Vector2.Distance(transform.position, player.transform.position);
             Vector2 direction = player.transform.position - transform.position;
-
-            if (player.transform.position.x < transform.position.x)
-            {
-                transform.Rotate(0f, 180f, 0f);
-            }
-
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
 
-
         }
-
 
     }
 }
