@@ -6,16 +6,18 @@ using UnityEngine.Audio;
 
 public class AIchase : MonoBehaviour
 {
-    public AudioSource soundEffect;
+    
     public GameObject player;
     public float speed;
     bool isActive;
     public Vector2 nestPoint;
     public Animator animator;
 
-    private bool hasPlayed = false;
+    
 
     private float distance;
+    private bool hasPlayed = false;
+    public AudioSource soundEffect;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -33,13 +35,15 @@ public class AIchase : MonoBehaviour
             }
         }
     }
+    
 
-   
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         isActive = false;
     }
+
+    
     
     // Update is called once per frame
     void Update()
@@ -49,8 +53,9 @@ public class AIchase : MonoBehaviour
         Vector3 theScale = transform.localScale;
         if (player.transform.position.x > transform.position.x)
         {
-            
+            soundEffect.Play();
             theScale.x = -Mathf.Abs(theScale.x); // face right
+            
         }
         else
         {
@@ -58,12 +63,15 @@ public class AIchase : MonoBehaviour
         }
 
         if (!isActive)
-        {   
-            soundEffect.Play();
+
+        {
+            
             theScale.x = Mathf.Abs(theScale.x); // face right
             transform.localScale = theScale;
+            
             distance = Vector2.Distance(transform.position, nestPoint);
             transform.position = Vector2.MoveTowards(this.transform.position, nestPoint, speed * Time.deltaTime);
+            
 
         }
         else
@@ -79,7 +87,7 @@ public class AIchase : MonoBehaviour
     }
     private void OnDisable()
     {
-    hasPlayed = false;
+        hasPlayed = false;
     }
 }
 

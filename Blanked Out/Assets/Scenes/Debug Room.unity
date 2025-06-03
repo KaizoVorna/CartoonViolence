@@ -327,6 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d42d3ba9d7e3d4ab7b6401b67adf37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffect: {fileID: 0}
   player: {fileID: 1758381656}
   speed: 2
   nestPoint: {x: 0, y: 0}
@@ -874,6 +875,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67380b6767a9fe64d848f1a065c7fa86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 519420035}
+  StartSound: {fileID: 8300000, guid: e20a4c6a7caac6d4dbe779dfa72c9adb, type: 3}
 --- !u!114 &584121709 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3606461304497036934, guid: c6c5ceee2307962439141c3e4f9c2060, type: 3}
