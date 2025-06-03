@@ -124,7 +124,7 @@ MonoBehaviour:
     m_Bits: 192
   m_GroundCheck: {fileID: 7118958813499183379}
   m_CeilingCheck: {fileID: 116147890040439683}
-  m_CrouchDisableCollider: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 3404188166957405418}
   m_AirSpeedMultiplier: 0.1
   audioSource: {fileID: 0}
   jumpSoundEffect: {fileID: 0}
@@ -597,7 +597,7 @@ GameObject:
   - component: {fileID: 3404188166957405418}
   m_Layer: 0
   m_Name: CrouchCollider
-  m_TagString: Untagged
+  m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
