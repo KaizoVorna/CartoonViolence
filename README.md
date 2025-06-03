@@ -275,3 +275,5 @@ Sami: Continued making background music AGAIN.
 <br>
 Tue.3.6.2025
 <br>
+Sami: Finished making the backgroundmusic and added it in to the demo.
+<br>
