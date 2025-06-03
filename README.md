@@ -238,7 +238,7 @@ Daniel: Added the anvil prefab and we have tested it . Fixed some trouble with s
 <br>
 Tue.27.5.2025
 <br>
-Sami: Worked with musics
+Sami: Worked with background musics
 <br>
 Eelis: Made great progress with Frank's animation task. Cut out and refined ss from sprite videos, pushed a pair of finished sprite chains into the project folder and will continue to refine, create and upload more finished sprite chains into the project folder tomorrow.
 <br>
@@ -251,7 +251,7 @@ Daniel: Did some small fixes with the DrawBar menu - small for professionals , b
 <br>
 Wed.28.5.2025
 <Br>
-Sami: Continued making music. 
+Sami: Continued making background music. 
 <br>
 Eelis: Finished the sprite chains for Frank's main animations, now deployment-ready for animating.
 <br>
@@ -269,6 +269,8 @@ Sara: I made few designs for our new enemy Chillspine. I also made HCD ready and
 Eelis: I created Idle/Walk/Run animations for Frank and will make the rest tomorrow, and hopefully get to configurance part too.
 <br>
 Touko: I animated and programmed Chillspine, added a pressure plate, prefabbed Frank and tried in vain to get the Screen to change only once.
+<br>
+Sami: Continued making background music AGAIN.
 <br>
 <br>
 Tue.3.6.2025
