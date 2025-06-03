@@ -271,3 +271,5 @@ Eelis: I created Idle/Walk/Run animations for Frank and will make the rest tomor
 Touko: I animated and programmed Chillspine, added a pressure plate, prefabbed Frank and tried in vain to get the Screen to change only once.
 <br>
 <br>
+Tue.3.6.2025
+<br>
