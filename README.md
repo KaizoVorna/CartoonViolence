@@ -277,3 +277,6 @@ Tue.3.6.2025
 <br>
 Sami: Finished making the backgroundmusic and added it in to the demo.
 <br>
+Sara: I worked with death screen in unity. 
+<br>
+
