@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -307,7 +307,7 @@ SpriteRenderer:
   m_Size: {x: 17.355143, y: 11.790001}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &68040783
@@ -1189,12 +1189,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3068770506116916827, guid: e4923582ccacd414f82c8e4cdc70057e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3901069c6f4feeb4da637cd85bee20a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 13.514004, y: 10.14}
+  m_Size: {x: 22.506668, y: 16.880001}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1731,7 +1731,7 @@ SpriteRenderer:
   m_Size: {x: 17.355143, y: 11.790001}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1622427400
@@ -1779,7 +1779,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1622427400}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b005b7e2d0f86a040b90ca6f3c85d015, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b3ab903cad0ba24384ee161f4999b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Screen1: {fileID: 2099422758}
@@ -1870,7 +1870,7 @@ SpriteRenderer:
   m_Size: {x: 17.355143, y: 11.790001}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1721820988
@@ -1909,8 +1909,8 @@ Camera:
   m_GameObject: {fileID: 1721820988}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2086,7 +2086,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 53da4e775a534c2489887cd0bae16eef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd1f2b10d91651a41aa3feceb25f65bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2314,7 +2314,7 @@ SpriteRenderer:
   m_Size: {x: 17.355143, y: 11.790001}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1988399308
