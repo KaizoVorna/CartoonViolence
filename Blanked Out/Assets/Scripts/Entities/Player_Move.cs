@@ -79,7 +79,7 @@ public class Player_Move : MonoBehaviour
             animator.SetBool("IsWalking", false);
         }
 
-        if (controller.IsGrounded == false)
+        if (!controller.IsGrounded)
         {
             animator.SetBool("InAir", true);
         }
