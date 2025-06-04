@@ -20,7 +20,10 @@ public class DeathManager : MonoBehaviour
 
     public void PlayerDamage() // This function handles when player takes damage from attacks, falling from too high, etc.
     {
-        animator.Play("FrankDeath");
+        if (animator != null)
+        {
+            animator.Play("FrankDeath");
+        }
         Reload();
     }
 
