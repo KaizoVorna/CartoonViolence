@@ -55,19 +55,37 @@ public class Player_Move : MonoBehaviour
 
         if (Input.GetAxisRaw("Vertical") < -0.1f)
         {
+            animator.SetBool("IsCrouching", true);
             isCrouching = true;
         }
         else
         {
+            animator.SetBool("IsCrouching", false);
             isCrouching = false;
         }
         if (!isCrouching && controller.IsGrounded && Input.GetAxisRaw("Horizontal") != 0f)
         {
+            animator.SetBool("IsCrawling", false);
             animator.SetBool("IsWalking", true);
+        }
+        else if (isCrouching && controller.IsGrounded && Input.GetAxisRaw("Horizontal") != 0f)
+        {
+            animator.SetBool("IsCrawling", true);
+            animator.SetBool("IsWalking", false);
         }
         else
         {
+            animator.SetBool("IsCrawling", false);
             animator.SetBool("IsWalking", false);
+        }
+
+        if (controller.IsGrounded == false)
+        {
+            animator.SetBool("InAir", true);
+        }
+        else
+        {
+            animator.SetBool("InAir", false);
         }
     }
 
