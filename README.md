@@ -289,3 +289,12 @@ Wed.4.6.2025 Final Work Day
 Sami: Made some fixes to the background music.
 <br>
 Eelis: Configured the rest of Frank's animations and waved goodbye to the unused ones. Also bug fixing regarding animations was made.
+<br>
+Touko: Made a functional build with the blessing of Bob Saget. Now it's only up to whenever Github will allow others to download the folder.
+<br>
+Daniel: Added some sounds effects, maybe it's all about testing.
+<br>
+(Touko's comment: The sound effects sadly broke during final testing and we don't have time to fix them, but the work was done.)
+<br>
+<br>
+The End
