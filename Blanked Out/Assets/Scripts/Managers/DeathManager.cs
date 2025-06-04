@@ -37,8 +37,10 @@ public class DeathManager : MonoBehaviour
 
     void Reload() 
     {
+        Time.timeScale = 0f;
         var currentScene = SceneManager.GetActiveScene().buildIndex;
         StartCoroutine(LoadSceneAsync(currentScene));
+        Time.timeScale = 1f;
     }
 
     IEnumerator LoadSceneAsync(int index)
