@@ -7,6 +7,7 @@ public class CollectibleManager : MonoBehaviour
 {
     public int count;
     public TMP_Text countText;
+   
 
     void Start()
     {
@@ -22,5 +23,16 @@ public class CollectibleManager : MonoBehaviour
     void UpdateCountText()
     {
         countText.text = ("Artsheets:") + count.ToString();
+        countText.text = ("Artsheets:") + count.ToString();
+
+
     }
+
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
+
+
 }
