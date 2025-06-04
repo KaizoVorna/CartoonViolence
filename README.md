@@ -284,5 +284,5 @@ Touko: I polished general stuff, Frank's properties, level properties, enemy tur
 Eelis: I configured some of the animations for Frank to stop floating above the ground, sorted the animations for Animator page, and prayed for Falke to save me in case i dont make it out alive from this project.
 <br>
 <br>
-Wed.4.6.2025 Final Day
+Wed.4.6.2025 Final Work Day
 <br>
