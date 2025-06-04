@@ -14,7 +14,6 @@ public class Player_LedgeMov : MonoBehaviour
     public Transform directBoxUp;
     public Transform directBoxBehind;
     public Animator animator;
-    bool isAnimating;
 
     private void Start()
     {
@@ -58,12 +57,10 @@ public class Player_LedgeMov : MonoBehaviour
                 //Climb up
                 rb.bodyType = RigidbodyType2D.Kinematic;
                 transform.position = new Vector2(ledgeGrabber.transform.position.x + (0.5f * transform.localScale.x), transform.position.y + 2.4f);
-                animator.SetBool("PullUp", true);
-                isAnimating = true;
                 rb.bodyType = RigidbodyType2D.Dynamic;
                 rb.gravityScale = startingGrav;
                 isHanging = false;
-
+                movement.enabled = true;
                 animator.SetBool("IsHanging", false);
 
             }
@@ -71,11 +68,6 @@ public class Player_LedgeMov : MonoBehaviour
 
         }
 
-        if (isAnimating && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
-        {
-            movement.enabled = true;
-            animator.SetBool("PullUp", false);
-        }
     }
 
     private void OnDrawGizmosSelected()
