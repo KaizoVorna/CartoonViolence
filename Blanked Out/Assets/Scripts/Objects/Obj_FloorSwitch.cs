@@ -21,8 +21,11 @@ public class Obj_FloorSwitch : MonoBehaviour
     {   
         if (!isPressed)
         {
-            audioSource.PlayOneShot(PushButtonSound);
-            hasPlayed = true;
+            if (audioSource != null)
+            {
+                audioSource.PlayOneShot(PushButtonSound);
+                hasPlayed = true;
+            }
             Activate();
         }
         isPressed = true;
