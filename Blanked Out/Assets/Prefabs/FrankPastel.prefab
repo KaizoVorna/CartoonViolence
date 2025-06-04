@@ -128,7 +128,7 @@ MonoBehaviour:
   m_CrouchDisableCollider: {fileID: 3404188166957405418}
   m_AirSpeedMultiplier: 0.1
   audioSource: {fileID: 6747539239828059572}
-  jumpSoundEffect: {fileID: 0}
+  jumpSoundEffect: {fileID: 8300000, guid: 665dcdaf66e58dc4e90ff6087a8a69e9, type: 3}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
