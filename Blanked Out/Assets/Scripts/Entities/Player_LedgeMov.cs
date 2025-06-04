@@ -14,6 +14,7 @@ public class Player_LedgeMov : MonoBehaviour
     public Transform directBoxUp;
     public Transform directBoxBehind;
     public Animator animator;
+    bool isAnimating;
 
     private void Start()
     {
@@ -54,10 +55,19 @@ public class Player_LedgeMov : MonoBehaviour
 
             if (Input.GetAxisRaw("Vertical") == 1)
             {
+                // Retrieve the current animation state information
+                AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
                 //Climb up
                 rb.bodyType = RigidbodyType2D.Kinematic;
                 transform.position = new Vector2(ledgeGrabber.transform.position.x + (0.5f * transform.localScale.x), transform.position.y + 2.4f);
                 animator.Play("FrankLedgeClimb");
+                isAnimating = true;
+
+            }
+
+            if (isAnimating && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
+            {
+                isAnimating = false;
                 rb.bodyType = RigidbodyType2D.Dynamic;
                 rb.gravityScale = startingGrav;
                 isHanging = false;
