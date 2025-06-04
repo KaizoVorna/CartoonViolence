@@ -151,6 +151,7 @@ MonoBehaviour:
   ledgeLayer:
     serializedVersion: 2
     m_Bits: 128
+  animator: {fileID: 2474252253307451332}
   isSneaking: 0
   isCrouching: 0
   isRunning: 0
@@ -236,7 +237,7 @@ BoxCollider2D:
   m_Offset: {x: -0.048707664, y: -1.4620779}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.49423376, y: 0.5330332}
     oldSize: {x: 1.35, y: 5.42}
     newSize: {x: 9.69, y: 13.94}
     adaptiveTilingThreshold: 0.5
@@ -271,6 +272,7 @@ MonoBehaviour:
   ledgeGrabber: {fileID: 1288782766981300223}
   directBoxUp: {fileID: 4874677096244737073}
   directBoxBehind: {fileID: 189699039065397724}
+  animator: {fileID: 2474252253307451332}
 --- !u!114 &8397026550831219568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,6 +294,7 @@ MonoBehaviour:
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 192
+  animator: {fileID: 2474252253307451332}
 --- !u!95 &2474252253307451332
 Animator:
   serializedVersion: 7
