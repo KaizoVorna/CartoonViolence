@@ -29,6 +29,7 @@ public class Player_LedgeMov : MonoBehaviour
 
         if (greenBox && !redBox && !blueBox && !isHanging)
         {
+            animator.SetBool("IsHanging", true);
             rb.linearVelocity = new Vector2(0f, 0f);
             rb.gravityScale = 0f;
             isHanging = true;
@@ -44,6 +45,7 @@ public class Player_LedgeMov : MonoBehaviour
             if (Input.GetAxisRaw("Vertical") == -1)
             {
                 //Drop down
+                animator.SetBool("IsHanging", false);
                 transform.position = new Vector2(transform.position.x, transform.position.y - 0.4f);
                 rb.gravityScale = startingGrav;
                 isHanging = false;
@@ -55,10 +57,12 @@ public class Player_LedgeMov : MonoBehaviour
                 //Climb up
                 rb.bodyType = RigidbodyType2D.Kinematic;
                 transform.position = new Vector2(ledgeGrabber.transform.position.x + (0.5f * transform.localScale.x), transform.position.y + 2.4f);
+                animator.Play("FrankLedgeClimb");
                 rb.bodyType = RigidbodyType2D.Dynamic;
                 rb.gravityScale = startingGrav;
                 isHanging = false;
                 movement.enabled = true;
+                animator.SetBool("IsHanging", false);
             }
         }
     }
