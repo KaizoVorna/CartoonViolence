@@ -286,3 +286,4 @@ Eelis: I configured some of the animations for Frank to stop floating above the 
 <br>
 Wed.4.6.2025 Final Work Day
 <br>
+Sami: Made some fixes to the background music.
