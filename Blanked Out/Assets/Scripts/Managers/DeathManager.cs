@@ -11,6 +11,7 @@ public class DeathManager : MonoBehaviour
     public GameObject deathScreen;
     public Player_Move movement;
     public DrawBadManager drawBad;
+    public Animator animator;
 
     public void PlayerFallDeath() // This function handles when player falls into pits.
     {
