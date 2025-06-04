@@ -33,19 +33,23 @@ public class Player_Move : MonoBehaviour
 
         if (Input.GetButton("Sneak") && !isCrouching)
         {
+            animator.SetBool("IsSneaking", true);
             isSneaking = true;
         }
         else
         {
+            animator.SetBool("IsRunning", false);
             isSneaking = false;
         }
 
         if (Input.GetButton("Run") && !isCrouching)
         {
+            animator.SetBool("IsRunning", true);
             isRunning = true;
         }
         else
         {
+            animator.SetBool("IsRunning", false);
             isRunning = false;
         }
 
@@ -56,6 +60,14 @@ public class Player_Move : MonoBehaviour
         else
         {
             isCrouching = false;
+        }
+        if (!isCrouching && controller.IsGrounded && Input.GetAxisRaw("Horizontal") != 0f)
+        {
+            animator.SetBool("IsWalking", true);
+        }
+        else
+        {
+            animator.SetBool("IsWalking", false);
         }
     }
 
