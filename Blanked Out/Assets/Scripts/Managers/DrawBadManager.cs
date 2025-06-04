@@ -14,6 +14,7 @@ public class DrawBadManager : MonoBehaviour
     const float k_GroundedRadius = .2f;
     public bool m_Grounded = false;
     [SerializeField] private LayerMask m_WhatIsGround;
+    public Animator animator;
 
     void Start()
     {

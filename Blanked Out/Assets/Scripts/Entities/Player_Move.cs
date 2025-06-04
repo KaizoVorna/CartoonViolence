@@ -9,6 +9,7 @@ public class Player_Move : MonoBehaviour
     public PlayerController controller;
     public Rigidbody2D rb;
     public LayerMask ledgeLayer;        // Layer mask to check for ledges, so that player will latch on.)
+    public Animator animator;
 
     [Header("Booleans")]
     public bool isSneaking = false;     //Check if player is sneaking.

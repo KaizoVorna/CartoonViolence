@@ -13,6 +13,7 @@ public class Player_LedgeMov : MonoBehaviour
     public Transform ledgeGrabber;
     public Transform directBoxUp;
     public Transform directBoxBehind;
+    public Animator animator;
 
     private void Start()
     {

@@ -53,7 +53,10 @@ public class AIchase : MonoBehaviour
         Vector3 theScale = transform.localScale;
         if (player.transform.position.x > transform.position.x)
         {
-            soundEffect.Play();
+            if (soundEffect != null)
+            {
+                soundEffect.Play();
+            }
             theScale.x = -Mathf.Abs(theScale.x); // face right
             
         }
