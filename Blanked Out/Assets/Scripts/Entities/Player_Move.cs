@@ -38,7 +38,7 @@ public class Player_Move : MonoBehaviour
         }
         else
         {
-            animator.SetBool("IsRunning", false);
+            animator.SetBool("IsSneaking", false);
             isSneaking = false;
         }
 
