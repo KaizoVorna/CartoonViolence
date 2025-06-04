@@ -15,7 +15,6 @@ public class Obj_FloorSwitch : MonoBehaviour
     [SerializeField] private ShutterSetActive shutter1;
     [SerializeField] private ShutterSetActive shutter2;
     bool isPressed;
-    private bool hasPlayed = false; 
 
     private void OnTriggerStay2D(Collider2D collision)
     {   
@@ -24,15 +23,10 @@ public class Obj_FloorSwitch : MonoBehaviour
             if (audioSource != null)
             {
                 audioSource.PlayOneShot(PushButtonSound);
-                hasPlayed = true;
             }
             Activate();
         }
         isPressed = true;
-    }
-    void OnDisable()
-    {
-        hasPlayed = false;
     }
 
 

@@ -16,7 +16,6 @@ public class AIchase : MonoBehaviour
     
 
     private float distance;
-    private bool hasPlayed = false;
     public AudioSource soundEffect;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -86,11 +85,6 @@ public class AIchase : MonoBehaviour
 
         }
 
-
-    }
-    private void OnDisable()
-    {
-        hasPlayed = false;
     }
 }
 
