@@ -42,14 +42,14 @@ public class DrawBadManager : MonoBehaviour
         {
             if (Input.GetButtonDown("DrawBad"))
             {
-
+                animator.SetBool("UsingPad", true);
                 drawpbadMenuUI.SetActive(true);
                 drawpbadMenuUI.transform.position = Vector2.MoveTowards(transform.position, player.position, followSpeed * Time.deltaTime);
                 player.GetComponent<Player_Move>().enabled = false;
             }
             else if (Input.GetButtonUp("DrawBad"))
             {
-
+                animator.SetBool("UsingPad", false);
                 drawpbadMenuUI.transform.position = startPos;
                 drawpbadMenuUI.SetActive(false);
                 player.GetComponent<Player_Move>().enabled = true;
