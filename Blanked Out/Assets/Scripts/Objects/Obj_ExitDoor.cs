@@ -31,6 +31,7 @@ public class Obj_ExitDoor : MonoBehaviour
             thisAnimator.Play("Open");
             StartCoroutine(LoadSceneAsync(sceneIndex));
             audioSource.PlayOneShot(OpenDoorSound);
+            Time.timeScale = 0f;
         }
     }
 
@@ -53,6 +54,7 @@ public class Obj_ExitDoor : MonoBehaviour
                 operation.allowSceneActivation = true;
                 movement.enabled = true;
                 drawBad.enabled = true;
+                Time.timeScale = 1f;
             }
 
             yield return null;
