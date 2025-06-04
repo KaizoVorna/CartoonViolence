@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class JumpScare : MonoBehaviour
 {
 
     public GameObject JumpScareImg;
+    public int sceneNumber;
 
     private bool isPlayed = false;
     void Start()
@@ -33,6 +35,7 @@ public class JumpScare : MonoBehaviour
         {
             yield return new WaitForSeconds(2);
             JumpScareImg.SetActive(false);
+            SceneManager.LoadScene(sceneNumber);
         }
     }
 
