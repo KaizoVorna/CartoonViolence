@@ -23,16 +23,21 @@ public class CollectibleManager : MonoBehaviour
     void UpdateCountText()
     {
         countText.text = ("Artsheets:") + count.ToString();
-        countText.text = ("Artsheets:") + count.ToString();
-
-
     }
-
 
     void Awake()
     {
         DontDestroyOnLoad(this);
     }
+
+    public void LoadSceneAndKeepValue()
+    {
+        string dataToKeep = countText.text;
+        
+    }
+
+    
+
 
 
 }
